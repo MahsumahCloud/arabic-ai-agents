@@ -2,6 +2,8 @@
 
 # Lesson 01 exercise solutions
 
+<img src="../../assets/mascot/thumbs-up.gif" alt="The course mascot giving a thumbs up" width="150" align="right">
+
 > Try the exercise yourself first. A solution teaches you more after you've made an attempt.
 
 ## Exercise 1: the minimum number of steps

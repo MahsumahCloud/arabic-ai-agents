@@ -2,6 +2,8 @@
 
 <p align="center"><img src="../../../assets/headers/lesson-02-en.svg" alt="Lesson 02: Tools from scratch" width="100%"></p>
 
+<p align="center"><img src="../../../assets/mascot/welcome-hand-on-chest.gif" alt="The course mascot, hand on chest in welcome" width="170"></p>
+
 # Lesson 02: Tools from scratch (tool use)
 
 > [!NOTE]
@@ -15,6 +17,8 @@
 > **Time:** about 75 minutes · **You'll build:** four safe tools (a calculator, date and time, a sandboxed file reader, and a delete tool that needs human approval) and the tool-use loop, written by hand line by line. · **Code:** [`lessons/02/`](../../../lessons/02/)
 
 ## Run it
+
+<img src="../../../assets/mascot/coding.gif" alt="The course mascot typing on a laptop" width="150" align="right">
 
 ```console
 $ python -m pytest                      # offline, no API key
@@ -77,6 +81,8 @@ The five tools in [`tools.py`](../../../lessons/02/tools.py):
 ## 3. The loop, written by hand
 
 <p align="center"><img src="../../../assets/diagrams/tool-loop-en.svg" alt="Sequence diagram of the tool-use loop between your code, the model and the tool" width="760"></p>
+
+<p align="center"><img src="../../../assets/mascot/teach-point.gif" alt="The course mascot pointing at the diagram" width="150"></p>
 
 The heart of the lesson is in [`tool_loop.py`](../../../lessons/02/tool_loop.py):
 
@@ -216,6 +222,8 @@ Use it in your own projects when it suits you, but the guarding (validation, san
 
 ## Common mistakes
 
+<img src="../../../assets/mascot/tip.gif" alt="The course mascot giving a tip" width="150" align="right">
+
 | Mistake | What happens | Do this instead |
 |---|---|---|
 | Appending only the text of the model's reply to the conversation | Tool requests and thinking blocks are lost, so the next request is rejected or loses its context | Append the whole `response.content` |
@@ -227,6 +235,8 @@ Use it in your own projects when it suits you, but the guarding (validation, san
 | Letting an exception crash the loop | The agent stops and the work done so far is lost | Catch the error and send it back to the model |
 
 ## Check yourself
+
+<img src="../../../assets/mascot/thinking.gif" alt="The course mascot thinking" width="150" align="right">
 
 1. Who actually runs the tool: the model or your code?
 2. Why do we put a "when to call it" sentence in the tool description?
@@ -258,6 +268,9 @@ Solutions are in [`solutions/02/`](../../../solutions/02/README.en.md).
 Tool · Tool Use · JSON Schema · Tool Result · Parallel Tool Use · Sandbox · Allowlist · Abstract Syntax Tree · Human Approval · Prompt Injection · Tool Runner
 
 Full definitions in the [glossary](../glossary.md).
+
+
+<p align="center"><img src="../../../assets/mascot/celebrate.gif" alt="The course mascot celebrating the end of the lesson" width="170"></p>
 
 ---
 

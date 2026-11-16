@@ -4,6 +4,8 @@
 
 <p align="center"><img src="../../assets/headers/lesson-03-ar.svg" alt="الدرس 03: أول وكيل حقيقي، مساعد بحث" width="100%"></p>
 
+<p align="center"><img src="../../assets/mascot/welcome-open-arms.gif" alt="شخصية الدورة تفتح ذراعيها ترحيباً" width="170"></p>
+
 # الدرس 03: أول وكيل حقيقي، «مساعد بحث»
 
 > [!NOTE]
@@ -20,6 +22,8 @@
 
 ## شغّل الدرس
 
+<img src="../../assets/mascot/coding.gif" alt="شخصية الدورة تكتب على حاسوبها" width="150" align="left">
+
 </div>
 <div dir="ltr">
 
@@ -34,6 +38,8 @@ $ python lessons/03/research_agent.py          # needs ANTHROPIC_API_KEY
 ## 1. البنية
 
 <p align="center"><img src="../../assets/diagrams/research-agent-ar.svg" alt="بنية مساعد البحث: سؤال يدخل حلقة الوكيل، التي تخطط وتبحث وتقرأ المستندات، تحت حراسة حدود الخطوات والكلفة والتكرار، ثم فحص الاستشهادات" width="760"></p>
+
+<p align="center"><img src="../../assets/mascot/teach-point.gif" alt="شخصية الدورة تشير إلى الرسم" width="150"></p>
 
 | الملف | دوره |
 |---|---|
@@ -187,6 +193,8 @@ plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب م�
 
 ## أخطاء شائعة
 
+<img src="../../assets/mascot/tip.gif" alt="شخصية الدورة تقدّم نصيحة" width="150" align="left">
+
 | الخطأ | ما يحدث | الصواب |
 |---|---|---|
 | حذف رسائل قديمة من وسط المحادثة لتوفير الكلفة | تُبطَل كتل التفكير اللاحقة وقد يُرفض الطلب | أبقِ التاريخ إضافياً فقط، أو ابدأ جلسة جديدة |
@@ -197,6 +205,8 @@ plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب م�
 | إعطاء وكيل البحث أداة كتابة أو حذف | مستند خبيث قد يدفعه إلى فعل ضار | أدوات قراءة فقط لوكيل يقرأ محتوى غير موثوق |
 
 ## اختبر نفسك
+
+<img src="../../assets/mascot/thinking.gif" alt="شخصية الدورة تفكّر" width="150" align="left">
 
 1. أين تعيش «ذاكرة» الوكيل؟ ولماذا يعرف السؤال الأول عند السؤال الثاني؟
 2. لماذا نفحص حدّ الكلفة قبل الطلب لا بعده؟
@@ -228,6 +238,9 @@ plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب م�
 التخطيط (Planning) · ذاكرة المحادثة (Conversation Memory) · تاريخ إضافي فقط (Append-only History) · التطبيع (Normalization) · الكلمات الشائعة المستبعدة (Stop Words) · الاستشهاد (Citation) · الإسناد إلى المصادر (Grounding) · حدّ الخطوات (Max Steps) · حدّ الكلفة (Cost Budget) · كشف التكرار (Loop Detection) · بيانات الاستهلاك (Usage) · التخزين المؤقت للطلبات (Prompt Caching) · الضغط (Compaction)
 
 التعريفات الكاملة في [المسرد](../glossary.md).
+
+
+<p align="center"><img src="../../assets/mascot/celebrate.gif" alt="شخصية الدورة تحتفل بإتمام الدرس" width="170"></p>
 
 ---
 

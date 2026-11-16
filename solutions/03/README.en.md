@@ -2,6 +2,8 @@
 
 # Lesson 03 exercise solutions
 
+<img src="../../assets/mascot/thumbs-up.gif" alt="The course mascot giving a thumbs up" width="150" align="right">
+
 ## Exercise 1: trimming memory
 
 The solution is in [`ex1_trim_memory.py`](ex1_trim_memory.py). Two rules:

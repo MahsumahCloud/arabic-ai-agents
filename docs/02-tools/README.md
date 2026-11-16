@@ -4,6 +4,8 @@
 
 <p align="center"><img src="../../assets/headers/lesson-02-ar.svg" alt="الدرس 02: الأدوات من الصفر" width="100%"></p>
 
+<p align="center"><img src="../../assets/mascot/welcome-hand-on-chest.gif" alt="شخصية الدورة تضع يدها على صدرها ترحيباً" width="170"></p>
+
 # الدرس 02: الأدوات من الصفر (Tool Use)
 
 > [!NOTE]
@@ -17,6 +19,8 @@
 > **المدة المتوقعة:** 75 دقيقة · **ستبني:** أربع أدوات آمنة (حاسبة، تاريخ ووقت، قارئ ملفات في صندوق رمل، حذف بموافقة بشرية) وحلقة استخدام الأدوات مكتوبة يدوياً سطراً سطراً. · **الشيفرة:** [`lessons/02/`](../../lessons/02/)
 
 ## شغّل الدرس
+
+<img src="../../assets/mascot/coding.gif" alt="شخصية الدورة تكتب على حاسوبها" width="150" align="left">
 
 </div>
 <div dir="ltr">
@@ -89,6 +93,8 @@ $ python lessons/02/tool_loop.py "احذف الملف shopping.md"   # needs ANT
 ## 3. الحلقة مكتوبة يدوياً
 
 <p align="center"><img src="../../assets/diagrams/tool-loop-ar.svg" alt="مخطط تسلسلي لحلقة استخدام الأدوات بين شيفرتك والنموذج والأداة" width="760"></p>
+
+<p align="center"><img src="../../assets/mascot/teach-point.gif" alt="شخصية الدورة تشير إلى الرسم" width="150"></p>
 
 قلب الدرس في [`tool_loop.py`](../../lessons/02/tool_loop.py):
 
@@ -252,6 +258,8 @@ for message in runner:
 
 ## أخطاء شائعة
 
+<img src="../../assets/mascot/tip.gif" alt="شخصية الدورة تقدّم نصيحة" width="150" align="left">
+
 | الخطأ | ما يحدث | الصواب |
 |---|---|---|
 | إضافة النص فقط من رد النموذج إلى المحادثة | تضيع طلبات الأدوات وكتل التفكير، فيُرفض الطلب التالي أو يفقد سياقه | أضف `response.content` كاملاً |
@@ -263,6 +271,8 @@ for message in runner:
 | ترك الاستثناء يُسقط الحلقة | يتوقف الوكيل ويضيع ما أُنجز | التقط الخطأ وأعده للنموذج |
 
 ## اختبر نفسك
+
+<img src="../../assets/mascot/thinking.gif" alt="شخصية الدورة تفكّر" width="150" align="left">
 
 1. من ينفّذ الأداة فعلاً: النموذج أم شيفرتك؟
 2. لماذا نضع جملة «متى تُستدعى» في وصف الأداة؟
@@ -294,6 +304,9 @@ for message in runner:
 الأداة (Tool) · استخدام الأدوات (Tool Use) · مخطط JSON (JSON Schema) · نتيجة الأداة (Tool Result) · الاستدعاء المتوازي (Parallel Tool Use) · صندوق الرمل (Sandbox) · قائمة السماح (Allowlist) · شجرة النحو المجردة (Abstract Syntax Tree) · الموافقة البشرية (Human Approval) · حقن التعليمات (Prompt Injection) · مُشغّل الأدوات (Tool Runner)
 
 التعريفات الكاملة في [المسرد](../glossary.md).
+
+
+<p align="center"><img src="../../assets/mascot/celebrate.gif" alt="شخصية الدورة تحتفل بإتمام الدرس" width="170"></p>
 
 ---
 

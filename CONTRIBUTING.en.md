@@ -43,6 +43,27 @@ Checklist:
 - [ ] No text is copied or translated from other sources.
 - [ ] I added a line to [CHANGELOG.md](CHANGELOG.md) if the change is visible to learners.
 
+## Visual identity and the course mascot
+
+- **Colours:** cream paper #F7F4EC, ink #0B0B0C, yellow #FFD619, and Saudi green #006C35 for the word "Saudi" only.
+- **One language per page and per image:** Arabic pages are Arabic only, English pages are English only; the only cross-link is the link to the other edition. Code identifiers and commands stay as they are.
+- **No letter-spacing on Arabic text** (no `letter-spacing`, no `text-transform`): it breaks the joining of letters.
+- **The Mahsumah stamp** on main images: `assets/brand/mahsumah-stamp-en.svg` on English images, the Arabic one on Arabic images.
+- **Mascot moves** live in `assets/mascot/`. Show them 140 to 180 px wide, with alt text in the page's language:
+
+| Where | File |
+|---|---|
+| Repository front page | `welcome-wave.gif` |
+| Lesson opening | `welcome-hand-on-chest.gif` or `welcome-open-arms.gif` |
+| Next to diagrams | `teach-point.gif` |
+| "Run it" and code sections | `coding.gif` |
+| "Common mistakes" and tips | `tip.gif` |
+| "Check yourself" | `thinking.gif` |
+| Solutions and answers | `thumbs-up.gif` |
+| End of the lesson | `celebrate.gif` |
+
+Reuse the same files across lessons; never add duplicates.
+
 ## License
 
 By contributing, you agree that your code is published under the MIT license and your written content under CC BY 4.0, as in [LICENSE](LICENSE) and [LICENSE-content](LICENSE-content).

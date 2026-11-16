@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209.8 56" width="209.8" height="56" role="img" aria-label="Course map" lang="en">
+  <title>Course map</title>
+  <rect x="0.75" y="0.75" width="208.3" height="54.5" rx="27.25" fill="#FFD619"/>
+  <circle cx="183.8" cy="28.0" r="18" fill="#0B0B0C"/>
+  <g transform="translate(171.84 16.00) scale(0.5000)" fill="none" stroke="#FFD619" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 24 H33"/><path d="M26 17 L33 24 L26 31"/></g>
+  <text x="26.0" y="34.0" text-anchor="start" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="700" fill="#0B0B0C">Course map</text>
+</svg>

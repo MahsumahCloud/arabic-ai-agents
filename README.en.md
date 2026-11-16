@@ -10,58 +10,49 @@
 
 <h1 align="center">AI Agents in Arabic: from zero to production</h1>
 
+<p align="center"><img src="assets/mascot/welcome-wave.gif" alt="The Mahsumah mascot: a Saudi developer waving, laptop in hand" width="180"></p>
+
 <p align="center"><b>Learn to build AI agents step by step, with runnable code and tests that pass without an API key.</b></p>
 
 <p align="center"><sub>An original course written in Arabic, with a complete English edition of every lesson.</sub></p>
 
 <p align="center">
-  <img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-22D3EE?style=for-the-badge&logo=python&logoColor=white&labelColor=0B1020">
-  <img alt="Tests run offline, no API key" src="https://img.shields.io/badge/tests-offline%20%C2%B7%20no%20API%20key-34D399?style=for-the-badge&logo=pytest&logoColor=white&labelColor=0B1020">
-  <img alt="Lessons: 4 of 12" src="https://img.shields.io/badge/lessons-4%20of%2012-A78BFA?style=for-the-badge&labelColor=0B1020">
-  <img alt="Code: MIT" src="https://img.shields.io/badge/code-MIT-8B5CF6?style=for-the-badge&labelColor=0B1020">
-  <img alt="Content: CC BY 4.0" src="https://img.shields.io/badge/content-CC%20BY%204.0-6366F1?style=for-the-badge&labelColor=0B1020">
+  <img alt="Python 3.10+" src="assets/badges/python-en.svg" height="34">
+  <img alt="Tests: offline, no API key" src="assets/badges/tests-en.svg" height="34">
+  <img alt="Lessons: 4 of 12" src="assets/badges/lessons-en.svg" height="34">
+  <img alt="Code: MIT" src="assets/badges/code-en.svg" height="34">
+  <img alt="Content: CC BY 4.0" src="assets/badges/content-en.svg" height="34">
 </p>
 
-<p align="center"><a href="docs/en/00-setup/README.md"><b>Start Lesson 00</b></a> · <a href="#course-map">Course map</a> · <a href="docs/en/glossary.md">Glossary</a> · <a href="README.md">النسخة العربية</a></p>
+<p align="center">
+  <a href="docs/en/00-setup/README.md"><img src="assets/buttons/start-en.svg" alt="Start Lesson 00" height="56"></a>
+  <a href="#course-map"><img src="assets/buttons/map-en.svg" alt="Course map" height="56"></a>
+</p>
+
+<p align="center"><a href="docs/en/glossary.md">Glossary</a> · <a href="CONTRIBUTING.en.md">Contributing</a></p>
 
 ## What makes this course different
 
 There are plenty of agent courses, and almost all of them are in English, built on English text. This one is Arabic-first, built on the problems Arabic itself raises:
 
-<table>
-<tr>
-<td width="33%" valign="top"><img src="assets/icons/research.svg" width="36" height="36" alt=""><br><b>Real Arabic documents</b><br><sub>A search that understands Arabic: it unifies alef and taa marbuta forms, strips diacritics, and reads Arabic-Indic digits.</sub></td>
-<td width="33%" valign="top"><img src="assets/icons/capstone.svg" width="36" height="36" alt=""><br><b>Examples from the region</b><br><sub>Date palms and the stages of the fruit, the Hijri calendar and Ramadan, the time in Riyadh, and a calculator that accepts Arabic-Indic digits (٠١٢٣).</sub></td>
-<td width="33%" valign="top"><img src="assets/icons/eval.svg" width="36" height="36" alt=""><br><b>Cost discipline</b><br><sub>A cost budget checked before every call, the cost of each question printed in front of you, and one dated price table.</sub></td>
-</tr>
-<tr>
-<td width="33%" valign="top"><img src="assets/icons/security.svg" width="36" height="36" alt=""><br><b>Citations checked, not trusted</b><br><sub>Every source in an answer is classified: valid, nonexistent, or never actually read by the agent.</sub></td>
-<td width="33%" valign="top"><img src="assets/icons/tools.svg" width="36" height="36" alt=""><br><b>From scratch, no framework</b><br><sub>You write the tool loop by hand, build safe tools without eval, and deletion only happens with your approval.</sub></td>
-<td width="33%" valign="top"><img src="assets/icons/setup.svg" width="36" height="36" alt=""><br><b>Tests with no API key</b><br><sub>Every example has a test that runs offline with a mock client, so you can learn without paying anything.</sub></td>
-</tr>
-</table>
+<p align="center"><img src="assets/features-en.svg" width="100%" alt="What makes this course different. Real Arabic documents: a search that understands Arabic: it unifies alef and taa marbuta forms, strips diacritics, and reads Arabic-Indic digits. Examples from the region: date palms and the stages of the fruit, the Hijri calendar and Ramadan, the time in Riyadh, and a calculator that accepts Arabic-Indic digits. Cost discipline: a cost budget checked before every call, the cost of each question printed in front of you, and one dated price table. Citations checked, not trusted: every source in an answer is classified: valid, nonexistent, or never actually read by the agent. From scratch, no framework: you write the tool loop by hand, build safe tools without eval, and deletion only happens with your approval. Tests with no API key: every example has a test that runs offline with a mock client, so you can learn without paying anything."></p>
 
 ## What you'll build
 
-In Lesson 03 you run a research assistant that reads local Arabic documents, makes a plan, calls its search and read tools, then answers and cites the source of every claim:
+<p align="center"><img src="assets/build-en.svg" width="100%" alt="What you will build: a tower of bricks. The base is the agent loop (lesson 01), safe tools and the tool-use loop (lesson 02); above them planning, memory and safe stopping, then cost tracking and citation checks (lesson 03); the research assistant sits on top."></p>
+
+In Lesson 03 you run a research assistant that reads a small set of local documents, makes a plan, calls its search and read tools, then answers and cites the file and line behind every claim. You start smaller, in Lesson 01, with an agent loop that needs no model and no API key:
 
 ```console
-$ python lessons/03/research_agent.py
-Research assistant. Documents:
-calligraphy.txt (9 lines): الخط العربي: فنّ الحرف
-hijri.txt (8 lines): التقويم الهجري
-palm.txt (9 lines): النخلة: شجرة الصحراء الكريمة
-solar.txt (8 lines): الطاقة الشمسية: أساسيات
-Ask in Arabic. Empty line to quit.
-
-> ما مراحل ثمرة النخلة؟
-plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب مع المصادر
-تمرّ ثمرة النخلة بمراحل متتابعة، أشهرها في الخليج: الخلال ثم الرطب ثم التمر [palm.txt:5].
-[stop: done | steps: 4 | citations: valid 1 | this question: $0.0xxx]
-[session: 4 calls | in ... | out ... | cache w/r 0/0 | $0.0xxx]
+$ python lessons/01/agent_loop_toy.py
+step 1: guess= 50 -> higher
+step 2: guess= 75 -> lower
+step 3: guess= 62 -> higher
+step 4: guess= 68 -> higher
+step 5: guess= 71 -> higher
+step 6: guess= 73 -> correct
+solved
 ```
-
-<sub>Illustrative output shape, not a real run; your text and numbers will differ. The question asks for the stages of the date palm's fruit; the answer names them (khalal, rutab, tamr) and cites line 5 of <code>palm.txt</code>.</sub>
 
 On the way there, you build by hand:
 
@@ -99,7 +90,7 @@ python -m pytest                          # all lessons, offline, no API key
 python lessons/01/agent_loop_toy.py       # the agent loop, no API key
 
 export ANTHROPIC_API_KEY="..."            # never write it in code
-python lessons/02/tool_loop.py "كم يساوي ١٥٪ من ٢٤٨٠؟"
+python lessons/02/tool_loop.py "What is 15% of 2480?"
 python lessons/03/research_agent.py
 ```
 
@@ -162,7 +153,13 @@ Every text, diagram, example and exercise in this course was written from scratc
 
 ## About Mahsumah
 
+<img src="assets/brand/mahsumah-stamp-en.svg" alt="Mahsumah stamp: Made by Mahsumah" width="120" align="right">
+
 This course was prepared by the team at [Mahsumah](https://mahsumaah.sa). We build cloud and software products, and we share what we learn in the open, Arabic first.
+
+<br clear="right">
+
+<p align="center"><a href="https://mahsumaah.sa"><img src="assets/footer-en.svg" width="100%" alt="An open course by the Mahsumah team: mahsumaah.sa"></a></p>
 
 ---
 

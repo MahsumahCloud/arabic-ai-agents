@@ -2,6 +2,8 @@
 
 <p align="center"><img src="../../../assets/headers/lesson-03-en.svg" alt="Lesson 03: A first real agent, research assistant" width="100%"></p>
 
+<p align="center"><img src="../../../assets/mascot/welcome-open-arms.gif" alt="The course mascot welcoming you with open arms" width="170"></p>
+
 # Lesson 03: A first real agent, the research assistant
 
 > [!NOTE]
@@ -18,6 +20,8 @@
 
 ## Run it
 
+<img src="../../../assets/mascot/coding.gif" alt="The course mascot typing on a laptop" width="150" align="right">
+
 ```console
 $ python -m pytest tests/test_lesson03.py      # offline, no API key
 $ python lessons/03/research_agent.py          # needs ANTHROPIC_API_KEY
@@ -26,6 +30,8 @@ $ python lessons/03/research_agent.py          # needs ANTHROPIC_API_KEY
 ## 1. The architecture
 
 <p align="center"><img src="../../../assets/diagrams/research-agent-en.svg" alt="The research assistant: a question enters the agent loop, which plans, searches and reads documents under a step limit, a cost budget and loop detection, then a citation check" width="760"></p>
+
+<p align="center"><img src="../../../assets/mascot/teach-point.gif" alt="The course mascot pointing at the diagram" width="150"></p>
 
 | File | Role |
 |---|---|
@@ -161,6 +167,8 @@ The model may stop with the reason `refusal`. Our agent then stops and tells you
 
 ## Common mistakes
 
+<img src="../../../assets/mascot/tip.gif" alt="The course mascot giving a tip" width="150" align="right">
+
 | Mistake | What happens | Do this instead |
 |---|---|---|
 | Deleting old messages from the middle of the conversation to save cost | Later thinking blocks are invalidated and the request may be rejected | Keep history append-only, or start a new session |
@@ -171,6 +179,8 @@ The model may stop with the reason `refusal`. Our agent then stops and tells you
 | Giving the research agent a write or delete tool | A malicious document could push it into a harmful action | Read-only tools for an agent that reads untrusted content |
 
 ## Check yourself
+
+<img src="../../../assets/mascot/thinking.gif" alt="The course mascot thinking" width="150" align="right">
 
 1. Where does the agent's "memory" live? And why does it know the first question when you ask the second?
 2. Why do we check the cost budget before the request rather than after?
@@ -202,6 +212,9 @@ Solutions in [`solutions/03/`](../../../solutions/03/README.en.md).
 Planning · Conversation Memory · Append-only History · Normalization · Stop Words · Citation · Grounding · Max Steps · Cost Budget · Loop Detection · Usage · Prompt Caching · Compaction
 
 Full definitions in the [glossary](../glossary.md).
+
+
+<p align="center"><img src="../../../assets/mascot/celebrate.gif" alt="The course mascot celebrating the end of the lesson" width="170"></p>
 
 ---
 

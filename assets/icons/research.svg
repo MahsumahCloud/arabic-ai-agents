@@ -1,5 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
-  <defs><linearGradient id="ires" gradientUnits="userSpaceOnUse" x1="12" y1="12" x2="36" y2="36"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
-  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="12" fill="#0b1020" stroke="#1e2a47" stroke-width="1.5"/>
-  <g fill="none" stroke="url(#ires)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 11 H25 L31 17 V27"/><path d="M25 11 V17 H31"/><path d="M14 11 V36 H22"/><path d="M18 22 H25"/><path d="M18 27 H21"/><path d="M30 35.5 a5.5 5.5 0 1 0 0 -11 a5.5 5.5 0 1 0 0 11 z"/><path d="M34 34 L37.5 37.5"/></g>
+  <rect width="48" height="48" rx="12" fill="#FFD619"/>
+  <g transform="translate(0.00 0.00) scale(1.0000)" fill="none" stroke="#0B0B0C" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 11 H25 L31 17 V27"/><path d="M25 11 V17 H31"/><path d="M14 11 V36 H22"/><path d="M18 22 H25"/><path d="M18 27 H21"/><path d="M30 35.5 a5.5 5.5 0 1 0 0 -11 a5.5 5.5 0 1 0 0 11 z"/><path d="M34 34 L37.5 37.5"/></g>
 </svg>

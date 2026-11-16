@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 242.5 34" width="242.5" height="34" role="img" aria-label="tests: offline · no API key" lang="en">
+  <title>tests: offline · no API key</title>
+  <clipPath id="r"><rect width="242.5" height="34" rx="9"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect x="0.0" width="72.3" height="34" fill="#0B0B0C"/>
+    <rect x="72.3" width="170.2" height="34" fill="#FFD619"/>
+  </g>
+  <text x="36.2" y="21.8" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">tests</text>
+  <text x="157.4" y="21.8" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" font-weight="700" fill="#0B0B0C">offline · no API key</text>
+</svg>

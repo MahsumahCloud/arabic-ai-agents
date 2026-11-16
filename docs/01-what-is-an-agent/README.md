@@ -4,6 +4,8 @@
 
 <p align="center"><img src="../../assets/headers/lesson-01-ar.svg" alt="الدرس 01: ما هو الوكيل؟" width="100%"></p>
 
+<p align="center"><img src="../../assets/mascot/welcome-open-arms.gif" alt="شخصية الدورة تفتح ذراعيها ترحيباً" width="170"></p>
+
 # الدرس 01: ما هو الوكيل؟
 
 > [!NOTE]
@@ -17,6 +19,8 @@
 > **المدة المتوقعة:** 45 دقيقة · **ستبني:** حلقة وكيل بسيطة بلا ذكاء اصطناعي، ثم أول طلب حقيقي إلى نموذج لغوي. · **الشيفرة:** [`lessons/01/`](../../lessons/01/)
 
 ## شغّل الدرس
+
+<img src="../../assets/mascot/coding.gif" alt="شخصية الدورة تكتب على حاسوبها" width="150" align="left">
 
 </div>
 <div dir="ltr">
@@ -55,6 +59,8 @@ $ python lessons/01/first_call.py "ما الفرق بين النموذج الل�
 ## 3. الحلقة: إدراك ثم تفكير ثم فعل
 
 <p align="center"><img src="../../assets/diagrams/agent-loop-ar.svg" alt="حلقة الوكيل: إدراك ثم تفكير ثم فعل، مع البيئة وشرط التوقف" width="760"></p>
+
+<p align="center"><img src="../../assets/mascot/teach-point.gif" alt="شخصية الدورة تشير إلى الرسم" width="150"></p>
 
 - **الإدراك (Perceive):** ما يعرفه الوكيل الآن: طلب المستخدم، ونتائج الأدوات السابقة.
 - **التفكير (Think):** اختيار الخطوة التالية. في الوكيل الحقيقي هذا هو دور النموذج.
@@ -191,6 +197,8 @@ python lessons/01/first_call.py "ما الفرق بين النموذج اللغ�
 
 ## أخطاء شائعة
 
+<img src="../../assets/mascot/tip.gif" alt="شخصية الدورة تقدّم نصيحة" width="150" align="left">
+
 | الخطأ | لماذا هو خطأ | الصواب |
 |---|---|---|
 | قراءة `response.content[0].text` مباشرة | أول كتلة قد تكون `thinking` لا `text` | صفِّ الكتل حسب `block.type` |
@@ -200,6 +208,8 @@ python lessons/01/first_call.py "ما الفرق بين النموذج اللغ�
 | حلقة بلا حدّ للخطوات | قد تدور بلا نهاية وتستهلك رصيدك | ضع `max_steps` في كل حلقة |
 
 ## اختبر نفسك
+
+<img src="../../assets/mascot/thinking.gif" alt="شخصية الدورة تفكّر" width="150" align="left">
 
 1. ما العناصر الأربعة التي لا يكون الوكيل وكيلاً بدونها؟
 2. ما الفرق بين سير العمل والوكيل من حيث من يقرّر الخطوة التالية؟
@@ -231,6 +241,9 @@ python lessons/01/first_call.py "ما الفرق بين النموذج اللغ�
 النموذج اللغوي الكبير (Large Language Model) · الوكيل (Agent) · سير العمل (Workflow) · الحلقة (Loop) · الإدراك (Perceive) · التفكير (Think) · الفعل (Act) · البيئة (Environment) · شرط التوقف (Stopping Condition) · تعليمات النظام (System Prompt) · كتلة المحتوى (Content Block) · سبب التوقف (Stop Reason) · التفكير التكيّفي (Adaptive Thinking)
 
 التعريفات الكاملة في [المسرد](../glossary.md).
+
+
+<p align="center"><img src="../../assets/mascot/celebrate.gif" alt="شخصية الدورة تحتفل بإتمام الدرس" width="170"></p>
 
 ---
 

@@ -2,6 +2,8 @@
 
 <p align="center"><img src="../../../assets/headers/lesson-01-en.svg" alt="Lesson 01: What is an agent?" width="100%"></p>
 
+<p align="center"><img src="../../../assets/mascot/welcome-open-arms.gif" alt="The course mascot welcoming you with open arms" width="170"></p>
+
 # Lesson 01: What is an agent?
 
 > [!NOTE]
@@ -15,6 +17,8 @@
 > **Time:** about 45 minutes · **You'll build:** a simple agent loop with no AI at all, then your first real request to a language model. · **Code:** [`lessons/01/`](../../../lessons/01/)
 
 ## Run it
+
+<img src="../../../assets/mascot/coding.gif" alt="The course mascot typing on a laptop" width="150" align="right">
 
 ```console
 $ python lessons/01/agent_loop_toy.py       # no API key needed
@@ -47,6 +51,8 @@ Three properties govern everything we will build:
 ## 3. The loop: perceive, think, act
 
 <p align="center"><img src="../../../assets/diagrams/agent-loop-en.svg" alt="The agent loop: perceive, think, act, with the environment and the stopping condition" width="760"></p>
+
+<p align="center"><img src="../../../assets/mascot/teach-point.gif" alt="The course mascot pointing at the diagram" width="150"></p>
 
 - **Perceive:** what the agent knows right now: the user's request and the results of earlier tools.
 - **Think:** choose the next step. In a real agent, this is the model's job.
@@ -161,6 +167,8 @@ The examples use the official Anthropic library, but the concepts in this lesson
 
 ## Common mistakes
 
+<img src="../../../assets/mascot/tip.gif" alt="The course mascot giving a tip" width="150" align="right">
+
 | Mistake | Why it's wrong | Do this instead |
 |---|---|---|
 | Reading `response.content[0].text` directly | The first block may be `thinking`, not `text` | Filter blocks by `block.type` |
@@ -170,6 +178,8 @@ The examples use the official Anthropic library, but the concepts in this lesson
 | A loop with no step limit | It may spin forever and burn your credit | Put `max_steps` in every loop |
 
 ## Check yourself
+
+<img src="../../../assets/mascot/thinking.gif" alt="The course mascot thinking" width="150" align="right">
 
 1. What are the four elements without which an agent is not an agent?
 2. What is the difference between a workflow and an agent in terms of who decides the next step?
@@ -201,6 +211,9 @@ Solutions in [`solutions/01/`](../../../solutions/01/README.en.md).
 Large Language Model · Agent · Workflow · Loop · Perceive · Think · Act · Environment · Stopping Condition · System Prompt · Content Block · Stop Reason · Adaptive Thinking
 
 Full definitions in the [glossary](../glossary.md).
+
+
+<p align="center"><img src="../../../assets/mascot/celebrate.gif" alt="The course mascot celebrating the end of the lesson" width="170"></p>
 
 ---
 

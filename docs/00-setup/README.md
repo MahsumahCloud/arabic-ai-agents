@@ -4,6 +4,8 @@
 
 <p align="center"><img src="../../assets/headers/lesson-00-ar.svg" alt="الدرس 00: تجهيز بيئة العمل" width="100%"></p>
 
+<p align="center"><img src="../../assets/mascot/welcome-hand-on-chest.gif" alt="شخصية الدورة تضع يدها على صدرها ترحيباً" width="170"></p>
+
 # الدرس 00: تجهيز بيئة العمل
 
 > [!NOTE]
@@ -17,6 +19,8 @@
 > **المدة المتوقعة:** 20 دقيقة · **ستخرج من هذا الدرس بـ:** بيئة Python جاهزة، ومفتاح API محفوظ بأمان، وفكرة واضحة عن الكلفة والمخاطر قبل أن تكتب أول وكيل.
 
 ## شغّل الدرس
+
+<img src="../../assets/mascot/coding.gif" alt="شخصية الدورة تكتب على حاسوبها" width="150" align="left">
 
 </div>
 <div dir="ltr">
@@ -202,6 +206,8 @@ python -m pytest
 
 ## أخطاء شائعة
 
+<img src="../../assets/mascot/tip.gif" alt="شخصية الدورة تقدّم نصيحة" width="150" align="left">
+
 | الخطأ | ما يحدث | الصواب |
 |---|---|---|
 | كتابة المفتاح داخل `client = anthropic.Anthropic(api_key="...")` | يتسرّب مع أول رفع للمستودع | استدعِ `anthropic.Anthropic()` بلا وسائط، ودع المكتبة تقرأ البيئة |
@@ -210,6 +216,8 @@ python -m pytest
 | تصدير المتغير في طرفية وتشغيل الكود في أخرى | `ANTHROPIC_API_KEY is not set` | متغير `export` يعيش في الجلسة الحالية فقط |
 
 ## اختبر نفسك
+
+<img src="../../assets/mascot/thinking.gif" alt="شخصية الدورة تفكّر" width="150" align="left">
 
 1. أين يجب أن يُحفظ مفتاح API؟
 2. لماذا يمكن أن تكون كلفة الوكيل أعلى بكثير من كلفة سؤال واحد؟
@@ -231,6 +239,9 @@ python -m pytest
 البيئة الافتراضية (Virtual Environment) · متغير البيئة (Environment Variable) · مفتاح API (API Key) · الرمز (Token) · مستوى الجهد (Effort) · صندوق الرمل (Sandbox) · أقل صلاحية (Least Privilege) · حقن التعليمات (Prompt Injection) · عميل وهمي (Mock Client)
 
 التعريفات الكاملة في [المسرد](../glossary.md).
+
+
+<p align="center"><img src="../../assets/mascot/celebrate.gif" alt="شخصية الدورة تحتفل بإتمام الدرس" width="170"></p>
 
 ---
 

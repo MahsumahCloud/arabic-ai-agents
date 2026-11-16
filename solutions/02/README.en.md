@@ -2,6 +2,8 @@
 
 # Lesson 02 exercise solutions
 
+<img src="../../assets/mascot/thumbs-up.gif" alt="The course mascot giving a thumbs up" width="150" align="right">
+
 ## Exercise 1: a unit converter tool
 
 The solution is in [`ex1_unit_converter.py`](ex1_unit_converter.py). The idea: subclass `ToolBox`, add the definition to `definitions` and the schema to `_schemas`, then override `_dispatch` for the new tool and leave everything else to the parent class. That way `tools.py` stays unchanged, and validation and guarding still apply to the new tool.

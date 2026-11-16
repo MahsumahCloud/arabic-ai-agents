@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203.4 56" width="203.4" height="56" role="img" aria-label="خريطة الدورة" lang="ar">
+  <title>خريطة الدورة</title>
+  <rect x="0.75" y="0.75" width="201.9" height="54.5" rx="27.25" fill="#FFD619"/>
+  <circle cx="26.0" cy="28.0" r="18" fill="#0B0B0C"/>
+  <g transform="translate(14.00 16.00) scale(0.5000)" fill="none" stroke="#FFD619" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M33 24 H15"/><path d="M22 17 L15 24 L22 31"/></g>
+  <text x="177.4" y="34.0" text-anchor="end" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="17" font-weight="700" fill="#0B0B0C">‫خريطة الدورة‬</text>
+</svg>

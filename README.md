@@ -12,38 +12,34 @@
 
 <h1 align="center">وكلاء الذكاء الاصطناعي بالعربي: من الصفر إلى الاحتراف</h1>
 
+<p align="center"><img src="assets/mascot/welcome-wave.gif" alt="شخصية محسومة: مطوّر سعودي يلوّح بيده ويحمل حاسوبه" width="180"></p>
+
 <p align="center"><b>تعلّم بناء وكلاء الذكاء الاصطناعي بالعربية، خطوة خطوة، بشيفرة تعمل واختبارات تمر دون مفتاح API.</b></p>
 
-<p align="center" dir="ltr"><sub>Learn to build AI agents step by step, with runnable code and tests that pass without an API key.</sub></p>
-
 <p align="center">
-  <img alt="Python 3.10+" src="https://img.shields.io/badge/Python-3.10%2B-22D3EE?style=for-the-badge&logo=python&logoColor=white&labelColor=0B1020">
-  <img alt="الاختبارات تعمل دون اتصال ودون مفتاح" src="https://img.shields.io/badge/%D8%A7%D9%84%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D9%88%D9%86%20%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%20%D9%88%D8%A8%D9%84%D8%A7%20%D9%85%D9%81%D8%AA%D8%A7%D8%AD-34D399?style=for-the-badge&logo=pytest&logoColor=white&labelColor=0B1020">
-  <img alt="الدروس: 4 من 12" src="https://img.shields.io/badge/%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3-4%20%D9%85%D9%86%2012-A78BFA?style=for-the-badge&labelColor=0B1020">
-  <img alt="الشيفرة: MIT" src="https://img.shields.io/badge/%D8%A7%D9%84%D8%B4%D9%8A%D9%81%D8%B1%D8%A9-MIT-8B5CF6?style=for-the-badge&labelColor=0B1020">
-  <img alt="المحتوى: CC BY 4.0" src="https://img.shields.io/badge/%D8%A7%D9%84%D9%85%D8%AD%D8%AA%D9%88%D9%89-CC%20BY%204.0-6366F1?style=for-the-badge&labelColor=0B1020">
+  <img alt="Python 3.10+" src="assets/badges/python-ar.svg" height="34">
+  <img alt="الاختبارات: دون اتصال وبلا مفتاح" src="assets/badges/tests-ar.svg" height="34">
+  <img alt="الدروس: 4 من 12" src="assets/badges/lessons-ar.svg" height="34">
+  <img alt="الشيفرة: MIT" src="assets/badges/code-ar.svg" height="34">
+  <img alt="المحتوى: CC BY 4.0" src="assets/badges/content-ar.svg" height="34">
 </p>
 
-<p align="center"><a href="docs/00-setup/README.md"><b>ابدأ الدرس 00</b></a> · <a href="#خريطة-الدورة">خريطة الدورة</a> · <a href="docs/glossary.md">المسرد</a> · <a href="README.en.md">English edition</a></p>
+<p align="center">
+  <a href="docs/00-setup/README.md"><img src="assets/buttons/start-ar.svg" alt="ابدأ الدرس 00" height="56"></a>
+  <a href="#خريطة-الدورة"><img src="assets/buttons/map-ar.svg" alt="خريطة الدورة" height="56"></a>
+</p>
+
+<p align="center"><a href="docs/glossary.md">المسرد</a> · <a href="CONTRIBUTING.md">ساهم معنا</a></p>
 
 ## ما الذي يميّز هذه الدورة؟
 
 دورات الوكلاء كثيرة، وأغلبها بالإنجليزية وعلى نصوص إنجليزية. هذه الدورة كُتبت بالعربية أولاً، وعلى مشكلات العربية نفسها:
 
-<table dir="rtl">
-<tr>
-<td width="33%" valign="top"><img src="assets/icons/research.svg" width="36" height="36" alt=""><br><b>مستندات عربية حقيقية</b><br><sub>بحث يفهم العربية: يوحّد صور الألف والتاء المربوطة، ويحذف التشكيل، ويقرأ الأرقام الهندية.</sub></td>
-<td width="33%" valign="top"><img src="assets/icons/capstone.svg" width="36" height="36" alt=""><br><b>أمثلة من بيئتنا</b><br><sub>النخلة ومراحل التمر، والتقويم الهجري ورمضان، والوقت في الرياض، وحاسبة تقبل الأرقام الهندية (٠١٢٣).</sub></td>
-<td width="33%" valign="top"><img src="assets/icons/eval.svg" width="36" height="36" alt=""><br><b>انضباط في الكلفة</b><br><sub>حدّ للكلفة يُفحص قبل كل طلب، وكلفة كل سؤال تُطبع أمامك، وجدول أسعار واحد مؤرَّخ.</sub></td>
-</tr>
-<tr>
-<td width="33%" valign="top"><img src="assets/icons/security.svg" width="36" height="36" alt=""><br><b>استشهادات تُفحص لا تُصدَّق</b><br><sub>كل مصدر في الجواب يُصنَّف: صحيح، أو غير موجود، أو لم يقرأه الوكيل أصلاً.</sub></td>
-<td width="33%" valign="top"><img src="assets/icons/tools.svg" width="36" height="36" alt=""><br><b>من الصفر، بلا إطار عمل</b><br><sub>حلقة الأدوات تكتبها بيدك، وأدوات آمنة بلا eval، وحذف لا يتم إلا بموافقتك.</sub></td>
-<td width="33%" valign="top"><img src="assets/icons/setup.svg" width="36" height="36" alt=""><br><b>اختبارات بلا مفتاح</b><br><sub>كل مثال له اختبار يعمل دون اتصال بعميل وهمي، فتتعلّم دون أن تدفع شيئاً.</sub></td>
-</tr>
-</table>
+<p align="center"><img src="assets/features-ar.svg" width="100%" alt="ما الذي يميّز هذه الدورة. مستندات عربية حقيقية: بحث يفهم العربية: يوحّد صور الألف والتاء المربوطة، ويحذف التشكيل، ويقرأ الأرقام الهندية. أمثلة من بيئتنا: النخلة ومراحل التمر، والتقويم الهجري ورمضان، والوقت في الرياض، وحاسبة تقبل الأرقام الهندية (٠١٢٣). انضباط في الكلفة: حدّ للكلفة يُفحص قبل كل طلب، وكلفة كل سؤال تُطبع أمامك، وجدول أسعار واحد مؤرَّخ. استشهادات تُفحص لا تُصدَّق: كل مصدر في الجواب يُصنَّف: صحيح، أو غير موجود، أو لم يقرأه الوكيل أصلاً. من الصفر، بلا إطار عمل: حلقة الأدوات تكتبها بيدك، وأدوات آمنة بلا eval، وحذف لا يتم إلا بموافقتك. اختبارات بلا مفتاح: كل مثال له اختبار يعمل دون اتصال بعميل وهمي، فتتعلّم دون أن تدفع شيئاً."></p>
 
 ## ماذا ستبني؟
+
+<p align="center"><img src="assets/build-ar.svg" width="100%" alt="ماذا ستبني: برج من القطع. في القاعدة حلقة الوكيل (الدرس 01) والأدوات الآمنة وحلقة الأدوات (الدرس 02)، وفوقها التخطيط والذاكرة والتوقف الآمن، ثم حساب الكلفة وفحص الاستشهادات (الدرس 03)، وفي القمة مساعد البحث."></p>
 
 في الدرس 03 تشغّل «مساعد بحث» يقرأ مستندات عربية محلية، ويضع خطة، ويستدعي أدوات البحث والقراءة، ثم يجيب ويذكر مصدر كل معلومة:
 
@@ -87,15 +83,15 @@ plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب م�
 | <img src="assets/icons/tools.svg" width="32" height="32" alt=""> | 02 | [الأدوات من الصفر](docs/02-tools/README.md) | تعريف الأدوات بمخطط JSON، والحلقة اليدوية، ومعالجة الأخطاء، وحراسة الأدوات الخطرة | **متاح** |
 | <img src="assets/icons/research.svg" width="32" height="32" alt=""> | 03 | [أول وكيل حقيقي: «مساعد بحث»](docs/03-first-agent/README.md) | التخطيط، والذاكرة، وشروط التوقف، وحساب الكلفة، وفحص الاستشهادات | **متاح** |
 | <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 04 | بروتوكول MCP: ابنِ خادم أدوات | ربط الوكيل بأدوات خارجية بمعيار مفتوح | قريباً |
-| <img src="assets/icons/skills-soon.svg" width="32" height="32" alt=""> | 05 | المهارات (Agent Skills) | حزم تعليمات وموارد يحمّلها الوكيل عند الحاجة | قريباً |
+| <img src="assets/icons/skills-soon.svg" width="32" height="32" alt=""> | 05 | المهارات | حزم تعليمات وموارد يحمّلها الوكيل عند الحاجة | قريباً |
 | <img src="assets/icons/memory-soon.svg" width="32" height="32" alt=""> | 06 | الذاكرة الطويلة والاسترجاع (RAG) | التضمينات، والبحث الدلالي، وإدارة السياق الطويل | قريباً |
-| <img src="assets/icons/eval-soon.svg" width="32" height="32" alt=""> | 07 | تقييم الوكلاء (Evaluation) | كيف تقيس جودة الوكيل بأرقام لا بانطباعات | قريباً |
+| <img src="assets/icons/eval-soon.svg" width="32" height="32" alt=""> | 07 | تقييم الوكلاء | كيف تقيس جودة الوكيل بأرقام لا بانطباعات | قريباً |
 | <img src="assets/icons/security-soon.svg" width="32" height="32" alt=""> | 08 | أمان الوكلاء | الصلاحيات، وحقن التعليمات، والموافقات، والسجلات | قريباً |
 | <img src="assets/icons/multi-soon.svg" width="32" height="32" alt=""> | 09 | أنظمة الوكلاء المتعددين | متى تقسم العمل بين عدة وكلاء، وكيف | قريباً |
 | <img src="assets/icons/deploy-soon.svg" width="32" height="32" alt=""> | 10 | النشر والمراقبة | تشغيل الوكيل في بيئة حقيقية، ومراقبة الكلفة والأخطاء | قريباً |
 | <img src="assets/icons/capstone-soon.svg" width="32" height="32" alt=""> | 11 | مشروع التخرّج | وكيل متكامل من الفكرة إلى التشغيل | قريباً |
 
-كل درس فيه: شرح بالعربية الفصحى، ورسوم توضيحية، وشيفرة قابلة للتشغيل، و«أخطاء شائعة»، و«اختبر نفسك»، وتمارين بحلول منفصلة، ومصطلحات تُجمع في [المسرد](docs/glossary.md). وكل درس له نسخة إنجليزية كاملة في [`docs/en/`](docs/en/00-setup/README.md).
+كل درس فيه: شرح بالعربية الفصحى، ورسوم توضيحية، وشيفرة قابلة للتشغيل، و«أخطاء شائعة»، و«اختبر نفسك»، وتمارين بحلول منفصلة، ومصطلحات تُجمع في [المسرد](docs/glossary.md). وكل درس له نسخة إنجليزية كاملة.
 
 ## ابدأ في خمس دقائق
 
@@ -161,7 +157,7 @@ python lessons/03/research_agent.py
 ستظهر هنا صور المساهمين بعد نشر المستودع. كن أول من يصحّح خطأً أو يضيف تمريناً.
 
 <!--
-After the repository is public, replace MahsumahCloud/arabic-ai-agents and uncomment:
+بعد أن يصبح المستودع عاماً، أزل علامة التعليق عن السطر التالي:
 <a href="https://github.com/MahsumahCloud/arabic-ai-agents/graphs/contributors"><img src="https://contrib.rocks/image?repo=MahsumahCloud/arabic-ai-agents" alt="المساهمون"></a>
 -->
 
@@ -176,7 +172,13 @@ After the repository is public, replace MahsumahCloud/arabic-ai-agents and uncom
 
 ## عن محسومة
 
+<img src="assets/brand/mahsumah-stamp-ar.svg" alt="ختم محسومة: صُنع في محسومة" width="120" align="left">
+
 أعدّ هذه الدورة فريق [محسومة](https://mahsumaah.sa). نبني منتجات سحابية وبرمجية، ونشارك ما نتعلّمه مفتوحاً، بالعربية أولاً.
+
+<br clear="left">
+
+<p align="center"><a href="https://mahsumaah.sa"><img src="assets/footer-ar.svg" width="100%" alt="دورة مفتوحة من فريق محسومة: mahsumaah.sa"></a></p>
 
 ---
 

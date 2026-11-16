@@ -4,6 +4,8 @@
 
 # حلول تمارين الدرس 03
 
+<img src="../../assets/mascot/thumbs-up.gif" alt="شخصية الدورة ترفع إبهامها" width="150" align="left">
+
 ## التمرين 1: قصّ الذاكرة
 
 الحل في [`ex1_trim_memory.py`](ex1_trim_memory.py). قاعدتان:

@@ -2,6 +2,8 @@
 
 <p align="center"><img src="../../../assets/headers/lesson-00-en.svg" alt="Lesson 00: Setting up your workspace" width="100%"></p>
 
+<p align="center"><img src="../../../assets/mascot/welcome-hand-on-chest.gif" alt="The course mascot, hand on chest in welcome" width="170"></p>
+
 # Lesson 00: Setting up your workspace
 
 > [!NOTE]
@@ -15,6 +17,8 @@
 > **Time:** about 20 minutes · **You'll leave with:** a working Python environment, an API key stored safely, and a clear picture of cost and risk before you write your first agent.
 
 ## Run it
+
+<img src="../../../assets/mascot/coding.gif" alt="The course mascot typing on a laptop" width="150" align="right">
 
 ```console
 $ python3 -m venv .venv && source .venv/bin/activate
@@ -150,6 +154,8 @@ If the tests pass, your environment is ready. To see how an agent can be tested 
 
 ## Common mistakes
 
+<img src="../../../assets/mascot/tip.gif" alt="The course mascot giving a tip" width="150" align="right">
+
 | Mistake | What happens | Do this instead |
 |---|---|---|
 | Writing the key inside `client = anthropic.Anthropic(api_key="...")` | It leaks with your first push | Call `anthropic.Anthropic()` with no arguments and let the library read the environment |
@@ -158,6 +164,8 @@ If the tests pass, your environment is ready. To see how an agent can be tested 
 | Exporting the variable in one terminal and running the code in another | `ANTHROPIC_API_KEY is not set` | An `export` only lives in the current session |
 
 ## Check yourself
+
+<img src="../../../assets/mascot/thinking.gif" alt="The course mascot thinking" width="150" align="right">
 
 1. Where should your API key be stored?
 2. Why can an agent cost far more than a single question?
@@ -179,6 +187,9 @@ If the tests pass, your environment is ready. To see how an agent can be tested 
 Virtual Environment · Environment Variable · API Key · Token · Effort · Sandbox · Least Privilege · Prompt Injection · Mock Client
 
 Full definitions in the [glossary](../glossary.md).
+
+
+<p align="center"><img src="../../../assets/mascot/celebrate.gif" alt="The course mascot celebrating the end of the lesson" width="170"></p>
 
 ---
 

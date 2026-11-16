@@ -2,77 +2,65 @@
   <title id="tlt">The tool-use loop</title>
   <desc id="tld">Sequence: your code sends messages and tool definitions, the model asks for a tool, your code validates and runs it, sends every result back in one message, and the model answers.</desc>
   <defs>
-    <linearGradient id="tlg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
-    </linearGradient>
-    <linearGradient id="tlgh" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#a78bfa"/>
-    </linearGradient>
-    <pattern id="tldots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#1a2442"/>
+    <pattern id="tlp" width="56" height="56" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#0B0B0C" stroke-width="1">
+        <path d="M28.0 15.0 L41.0 28.0 L28.0 41.0 L15.0 28.0 Z"/>
+        <path d="M28.0 22.0 L34.0 28.0 L28.0 34.0 L22.0 28.0 Z" opacity="0.6"/>
+      </g>
+      <g fill="#0B0B0C"><circle cx="0" cy="0" r="1.3"/><circle cx="56" cy="0" r="1.3"/><circle cx="0" cy="56" r="1.3"/><circle cx="56" cy="56" r="1.3"/></g>
     </pattern>
-    <marker id="tlac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#22d3ee"/>
-    </marker>
-    <marker id="tlav" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#a78bfa"/>
-    </marker>
-    <marker id="tlar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#fb7185"/>
-    </marker>
-    <marker id="tlam" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#8b9bb8"/>
-    </marker>
+    <radialGradient id="tlpg" gradientUnits="userSpaceOnUse" cx="480" cy="300" r="620">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="0.35" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="tlpm"><rect width="100%" height="100%" fill="url(#tlpg)"/></mask>
+    <filter id="tls" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#0B0B0C" flood-opacity="0.05"/><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0B0B0C" flood-opacity="0.1"/></filter>
+    <marker id="tlac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#0B0B0C"/></marker><marker id="tlav" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#8A8781"/></marker><marker id="tlar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#0B0B0C"/></marker><marker id="tlam" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#6A6862"/></marker>
   </defs>
-  <rect width="960" height="660" rx="20" fill="#0b1020"/>
-  <rect width="960" height="660" rx="20" fill="url(#tldots)" opacity="0.9"/>
-  <rect x="0.75" y="0.75" width="958.5" height="658.5" rx="19.5" fill="none" stroke="#1e2a47" stroke-width="1.5"/>
-  <path d="M0.75 46 H959.25" stroke="#1e2a47" stroke-width="1.5"/>
-  <circle cx="26" cy="23" r="6" fill="#ff5f57" opacity="0.85"/>
-  <circle cx="46" cy="23" r="6" fill="#febc2e" opacity="0.85"/>
-  <circle cx="66" cy="23" r="6" fill="#28c840" opacity="0.85"/>
-  <text x="480.0" y="28" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9bb8">lessons/02/tool_loop.py</text>
-  <rect x="80" y="70" width="200" height="64" rx="14" fill="url(#tlg)"/>
-  <text x="180" y="100" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="21" fill="#060a14" font-weight="700">Your code</text>
-  <text x="180" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#0b1630">tool_loop.py</text>
-  <line x1="180" y1="136" x2="180" y2="636" stroke="#1e2a47" stroke-width="2" stroke-dasharray="4 7"/>
-  <rect x="380" y="70" width="200" height="64" rx="14" fill="#111a33" stroke="#22d3ee" stroke-width="2"/>
-  <text x="480" y="100" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="21" fill="#e6edf7" font-weight="700">Model</text>
-  <text x="480" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#22d3ee">messages.create()</text>
-  <line x1="480" y1="136" x2="480" y2="636" stroke="#1e2a47" stroke-width="2" stroke-dasharray="4 7"/>
-  <rect x="680" y="70" width="200" height="64" rx="14" fill="#111a33" stroke="#a78bfa" stroke-width="2"/>
-  <text x="780" y="100" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="21" fill="#e6edf7" font-weight="700">Tool</text>
-  <text x="780" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#a78bfa">ToolBox.run()</text>
-  <line x1="780" y1="136" x2="780" y2="636" stroke="#1e2a47" stroke-width="2" stroke-dasharray="4 7"/>
-  <path d="M198 200 H474" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
-  <circle cx="180" cy="200" r="13" fill="url(#tlg)"/>
-  <text x="180" y="205" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#060a14">1</text>
-  <text x="330.0" y="188" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#e6edf7">messages and tool definitions</text>
-  <path d="M462 278 H186" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
-  <circle cx="480" cy="278" r="13" fill="url(#tlg)"/>
-  <text x="480" y="283" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#060a14">2</text>
-  <text x="330.0" y="266" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#e6edf7">asks for a tool</text>
-  <text x="330.0" y="302" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8b9bb8">stop_reason: "tool_use"</text>
-  <path d="M198 358 H774" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
-  <circle cx="180" cy="358" r="13" fill="url(#tlg)"/>
-  <text x="180" y="363" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#060a14">3</text>
-  <text x="480.0" y="346" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#e6edf7">validate input, ask approval, then run</text>
-  <path d="M762 434 H186" fill="none" stroke="#a78bfa" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="8 6" marker-end="url(#tlav)"/>
-  <circle cx="780" cy="434" r="13" fill="url(#tlg)"/>
-  <text x="780" y="439" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#060a14">4</text>
-  <text x="480.0" y="422" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#e6edf7">the result, or an error message</text>
-  <path d="M198 514 H474" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
-  <circle cx="180" cy="514" r="13" fill="url(#tlg)"/>
-  <text x="180" y="519" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#060a14">5</text>
-  <text x="330.0" y="502" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#e6edf7">all results in one message</text>
-  <text x="330.0" y="538" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8b9bb8">tool_result (is_error)</text>
-  <path d="M462 594 H186" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
-  <circle cx="480" cy="594" r="13" fill="url(#tlg)"/>
-  <text x="480" y="599" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#060a14">6</text>
-  <text x="330.0" y="582" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#e6edf7">final answer</text>
-  <text x="330.0" y="618" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8b9bb8">stop_reason: "end_turn"</text>
-  <path d="M92 262 H66 V528 H92" fill="none" stroke="#fb7185" stroke-width="2.2" stroke-linecap="round"/>
-  <text x="48" y="395" text-anchor="middle" font-family="'Inter','IBM Plex Sans','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#fb7185" transform="rotate(-90 48 395)">repeats until done</text>
+  <rect width="960" height="660" rx="20" fill="#F7F4EC"/>
+  <rect width="960" height="660" rx="20" fill="url(#tlp)" opacity="0.05" mask="url(#tlpm)"/>
+  <rect x="0.75" y="0.75" width="958.5" height="658.5" rx="19.25" fill="none" stroke="#E2DED2" stroke-width="1.5"/>
+  <rect x="22" y="16" width="22" height="22" rx="6" fill="#FFD619"/>
+  <path d="M29 22 L34 27 L29 32" fill="none" stroke="#0B0B0C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="54" y="32" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#6A6862">lessons/02/tool_loop.py</text>
+  <rect x="80" y="70" width="200" height="64" rx="14" fill="#FFD619" filter="url(#tls)"/>
+  <text x="180" y="100" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="21" fill="#0B0B0C" font-weight="700">Your code</text>
+  <text x="180" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#0B0B0C">tool_loop.py</text>
+  <line x1="180" y1="136" x2="180" y2="636" stroke="#E2DED2" stroke-width="2" stroke-dasharray="4 7"/>
+  <rect x="380" y="70" width="200" height="64" rx="14" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="2" filter="url(#tls)"/>
+  <text x="480" y="100" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="21" fill="#0B0B0C" font-weight="700">Model</text>
+  <text x="480" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6A6862">messages.create()</text>
+  <line x1="480" y1="136" x2="480" y2="636" stroke="#E2DED2" stroke-width="2" stroke-dasharray="4 7"/>
+  <rect x="680" y="70" width="200" height="64" rx="14" fill="#FFFFFF" stroke="#8A8781" stroke-width="2" filter="url(#tls)"/>
+  <text x="780" y="100" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="21" fill="#0B0B0C" font-weight="700">Tool</text>
+  <text x="780" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6A6862">ToolBox.run()</text>
+  <line x1="780" y1="136" x2="780" y2="636" stroke="#E2DED2" stroke-width="2" stroke-dasharray="4 7"/>
+  <path d="M198 200 H474" fill="none" stroke="#0B0B0C" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="180" cy="200" r="13" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.5"/>
+  <text x="180" y="205" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#0B0B0C">1</text>
+  <text x="330.0" y="188" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C">messages and tool definitions</text>
+  <path d="M462 278 H186" fill="none" stroke="#0B0B0C" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="480" cy="278" r="13" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.5"/>
+  <text x="480" y="283" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#0B0B0C">2</text>
+  <text x="330.0" y="266" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C">asks for a tool</text>
+  <text x="330.0" y="302" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6A6862">stop_reason: &quot;tool_use&quot;</text>
+  <path d="M198 358 H774" fill="none" stroke="#0B0B0C" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="180" cy="358" r="13" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.5"/>
+  <text x="180" y="363" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#0B0B0C">3</text>
+  <text x="480.0" y="346" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C">validate input, ask approval, then run</text>
+  <path d="M762 434 H186" fill="none" stroke="#8A8781" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="8 6" marker-end="url(#tlav)"/>
+  <circle cx="780" cy="434" r="13" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.5"/>
+  <text x="780" y="439" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#0B0B0C">4</text>
+  <text x="480.0" y="422" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C">the result, or an error message</text>
+  <path d="M198 514 H474" fill="none" stroke="#0B0B0C" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="180" cy="514" r="13" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.5"/>
+  <text x="180" y="519" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#0B0B0C">5</text>
+  <text x="330.0" y="502" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C">all results in one message</text>
+  <text x="330.0" y="538" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6A6862">tool_result (is_error)</text>
+  <path d="M462 594 H186" fill="none" stroke="#0B0B0C" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="480" cy="594" r="13" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.5"/>
+  <text x="480" y="599" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="700" fill="#0B0B0C">6</text>
+  <text x="330.0" y="582" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C">final answer</text>
+  <text x="330.0" y="618" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6A6862">stop_reason: &quot;end_turn&quot;</text>
+  <path d="M92 262 H66 V528 H92" fill="none" stroke="#0B0B0C" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="48" y="395" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#0B0B0C" transform="rotate(-90 48 395)">repeats until done</text>
 </svg>
