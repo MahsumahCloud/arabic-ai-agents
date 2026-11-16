@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" width="1280" height="200" role="img" aria-labelledby="hgart" lang="ar">
+  <title id="hgart">مرجع المصطلحات: المسرد</title>
+  <defs>
+    <linearGradient id="hgarn" gradientUnits="userSpaceOnUse" x1="1216" y1="40" x2="1030" y2="160">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="hgarr" gradientUnits="userSpaceOnUse" cx="180" cy="20" r="420">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.28"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hgard" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#1a2442"/></pattern>
+  </defs>
+  <rect width="1280" height="200" rx="20" fill="#0b1020"/>
+  <rect width="1280" height="200" rx="20" fill="url(#hgard)"/>
+  <rect width="1280" height="200" rx="20" fill="url(#hgarr)"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="198.5" rx="19.5" fill="none" stroke="#1e2a47" stroke-width="1.5"/>
+  <g transform="translate(64 40) scale(2.5)" opacity="0.22"><g fill="none" stroke="url(#hgarn)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 15 C20 12.5 16 12 12 12.5 V34 C16 33.5 20 34 24 36.5 C28 34 32 33.5 36 34 V12.5 C32 12 28 12.5 24 15 Z"/><path d="M24 15 V36.5"/></g></g>
+  <g transform="translate(1086 34) scale(2.7)"><g fill="none" stroke="url(#hgarn)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M24 15 C20 12.5 16 12 12 12.5 V34 C16 33.5 20 34 24 36.5 C28 34 32 33.5 36 34 V12.5 C32 12 28 12.5 24 15 Z"/><path d="M24 15 V36.5"/></g></g>
+  <rect x="1009" y="48" width="3" height="104" rx="1.5" fill="url(#hgarn)"/>
+  <text x="980" y="76" text-anchor="end" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#22d3ee" letter-spacing="0">مرجع المصطلحات</text>
+  <text x="980" y="124" text-anchor="end" font-family="'Noto Kufi Arabic','IBM Plex Sans Arabic','Noto Sans Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="38" font-weight="700" fill="#e6edf7">المسرد</text>
+  <text x="980" y="160" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#8b9bb8" direction="ltr">docs/glossary.md</text>
+</svg>

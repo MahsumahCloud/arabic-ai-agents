@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+  <defs><linearGradient id="icap" gradientUnits="userSpaceOnUse" x1="12" y1="12" x2="36" y2="36"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="12" fill="#0b1020" stroke="#1e2a47" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#icap)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M16 37 V11"/><path d="M16 12.5 H33 L28.5 18.5 L33 24.5 H16"/></g>
+</svg>

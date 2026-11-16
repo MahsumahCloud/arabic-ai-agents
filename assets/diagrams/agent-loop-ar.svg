@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="960" height="580" role="img" aria-labelledby="alt ald" lang="ar">
+  <title id="alt">حلقة الوكيل: إدراك ثم تفكير ثم فعل</title>
+  <desc id="ald">التفكير ثم الفعل ثم البيئة ثم الإدراك في حلقة، تتوقف عند تحقق الهدف أو بلوغ حدّ الخطوات أو الكلفة.</desc>
+  <defs>
+    <linearGradient id="alg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="algh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="aldots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1a2442"/>
+    </pattern>
+    <marker id="alac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#22d3ee"/>
+    </marker>
+    <marker id="alav" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#a78bfa"/>
+    </marker>
+    <marker id="alar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#fb7185"/>
+    </marker>
+    <marker id="alam" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#8b9bb8"/>
+    </marker>
+  </defs>
+  <rect width="960" height="580" rx="20" fill="#0b1020"/>
+  <rect width="960" height="580" rx="20" fill="url(#aldots)" opacity="0.9"/>
+  <rect x="0.75" y="0.75" width="958.5" height="578.5" rx="19.5" fill="none" stroke="#1e2a47" stroke-width="1.5"/>
+  <path d="M0.75 46 H959.25" stroke="#1e2a47" stroke-width="1.5"/>
+  <circle cx="26" cy="23" r="6" fill="#ff5f57" opacity="0.85"/>
+  <circle cx="46" cy="23" r="6" fill="#febc2e" opacity="0.85"/>
+  <circle cx="66" cy="23" r="6" fill="#28c840" opacity="0.85"/>
+  <text x="480.0" y="28" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9bb8">lessons/01/agent_loop_toy.py</text>
+  <path d="M376 170 Q238 170 220 298" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" marker-end="url(#alac)"/>
+  <path d="M220 402 Q220 520 334 520" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" marker-end="url(#alac)"/>
+  <path d="M626 520 Q740 520 740 402" fill="none" stroke="#a78bfa" stroke-width="2.5" stroke-linecap="round" marker-end="url(#alav)"/>
+  <path d="M740 298 Q722 170 584 170" fill="none" stroke="#a78bfa" stroke-width="2.5" stroke-linecap="round" marker-end="url(#alav)"/>
+  <path d="M480 124 V90 H204" fill="none" stroke="#fb7185" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#alar)"/>
+  <rect x="58" y="68" width="140" height="44" rx="22" fill="#2a0f1a" stroke="#fb7185" stroke-width="1.8"/>
+  <text x="128" y="96" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="18" fill="#fb7185" font-weight="700">توقّف</text>
+  <text x="128" y="138" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="13" fill="#8b9bb8">تحقّق الهدف، أو</text>
+  <text x="128" y="156" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="13" fill="#8b9bb8">بلغ حدّ الخطوات أو الكلفة</text>
+  <rect x="380.0" y="124.0" width="200" height="92" rx="46" fill="#111a33" stroke="url(#alg)" stroke-width="2.2"/>
+  <text x="480" y="174" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="25" fill="#e6edf7" font-weight="700">تفكير</text>
+  <text x="480" y="198" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#22d3ee" direction="ltr">agent.think()</text>
+  <rect x="120.0" y="304.0" width="200" height="92" rx="46" fill="#111a33" stroke="url(#alg)" stroke-width="2.2"/>
+  <text x="220" y="354" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="25" fill="#e6edf7" font-weight="700">فعل</text>
+  <text x="220" y="378" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#22d3ee" direction="ltr">env.respond(guess)</text>
+  <rect x="640.0" y="304.0" width="200" height="92" rx="46" fill="#111a33" stroke="url(#alg)" stroke-width="2.2"/>
+  <text x="740" y="354" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="25" fill="#e6edf7" font-weight="700">إدراك</text>
+  <text x="740" y="378" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#22d3ee" direction="ltr">agent.perceive(...)</text>
+  <rect x="340.0" y="478.0" width="280" height="84" rx="16" fill="#111a33" stroke="url(#alg)" stroke-width="2.2"/>
+  <text x="480" y="524" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="25" fill="#e6edf7" font-weight="700">البيئة</text>
+  <text x="480" y="548" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#22d3ee" direction="ltr">"higher" | "lower" | "correct"</text>
+  <text x="228" y="206" text-anchor="end" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="15" fill="#22d3ee">ما الخطوة التالية؟</text>
+  <text x="198" y="494" text-anchor="end" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="15" fill="#22d3ee">تنفيذ أداة</text>
+  <text x="762" y="494" text-anchor="start" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="15" fill="#a78bfa">نتيجة وملاحظة</text>
+  <text x="732" y="206" text-anchor="start" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="15" fill="#a78bfa">ماذا أعرف الآن؟</text>
+  <text x="480" y="342" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="17" fill="#8b9bb8" font-weight="600">الحلقة</text>
+  <text x="480" y="368" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#56627d" direction="ltr">for _ in range(max_steps):</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+  <defs><linearGradient id="itoo" gradientUnits="userSpaceOnUse" x1="12" y1="12" x2="36" y2="36"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="12" fill="#0b1020" stroke="#1e2a47" stroke-width="1.5"/>
+  <g fill="none" stroke="url(#itoo)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M29.5 13.5 a6.5 6.5 0 0 0 -7.6 8.4 L13.6 30.2 a2.6 2.6 0 0 0 3.7 3.7 L25.6 25.6 a6.5 6.5 0 0 0 8.4 -7.6 l-3.9 3.9 -3.6 -0.6 -0.6 -3.6 z"/></g>
+</svg>

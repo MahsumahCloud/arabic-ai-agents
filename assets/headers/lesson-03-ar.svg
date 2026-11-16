@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 200" width="1280" height="200" role="img" aria-labelledby="h03art" lang="ar">
+  <title id="h03art">الدرس 03 · 90 دقيقة: أول وكيل حقيقي: مساعد بحث</title>
+  <defs>
+    <linearGradient id="h03arn" gradientUnits="userSpaceOnUse" x1="1216" y1="40" x2="1030" y2="160">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="h03arr" gradientUnits="userSpaceOnUse" cx="180" cy="20" r="420">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.28"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="h03ard" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#1a2442"/></pattern>
+  </defs>
+  <rect width="1280" height="200" rx="20" fill="#0b1020"/>
+  <rect width="1280" height="200" rx="20" fill="url(#h03ard)"/>
+  <rect width="1280" height="200" rx="20" fill="url(#h03arr)"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="198.5" rx="19.5" fill="none" stroke="#1e2a47" stroke-width="1.5"/>
+  <g transform="translate(64 40) scale(2.5)" opacity="0.22"><g fill="none" stroke="url(#h03arn)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 11 H25 L31 17 V27"/><path d="M25 11 V17 H31"/><path d="M14 11 V36 H22"/><path d="M18 22 H25"/><path d="M18 27 H21"/><path d="M30 35.5 a5.5 5.5 0 1 0 0 -11 a5.5 5.5 0 1 0 0 11 z"/><path d="M34 34 L37.5 37.5"/></g></g>
+  <text x="1216" y="140" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="104" font-weight="700" fill="url(#h03arn)" letter-spacing="-4" direction="ltr">03</text>
+  <rect x="1009" y="48" width="3" height="104" rx="1.5" fill="url(#h03arn)"/>
+  <text x="980" y="76" text-anchor="end" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#22d3ee" letter-spacing="0">الدرس 03 · 90 دقيقة</text>
+  <text x="980" y="124" text-anchor="end" font-family="'Noto Kufi Arabic','IBM Plex Sans Arabic','Noto Sans Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="38" font-weight="700" fill="#e6edf7">أول وكيل حقيقي: مساعد بحث</text>
+  <text x="980" y="160" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="15" fill="#8b9bb8" direction="ltr">lessons/03/</text>
+</svg>

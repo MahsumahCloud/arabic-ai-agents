@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" width="960" height="660" role="img" aria-labelledby="tlt tld" lang="ar">
+  <title id="tlt">حلقة استخدام الأدوات</title>
+  <desc id="tld">مخطط تسلسلي: شيفرتك ترسل المحادثة وتعريفات الأدوات، والنموذج يطلب أداة، وشيفرتك تتحقق وتنفّذ وتعيد كل النتائج في رسالة واحدة، ثم يجيب النموذج.</desc>
+  <defs>
+    <linearGradient id="tlg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="tlgh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="tldots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1a2442"/>
+    </pattern>
+    <marker id="tlac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#22d3ee"/>
+    </marker>
+    <marker id="tlav" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#a78bfa"/>
+    </marker>
+    <marker id="tlar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#fb7185"/>
+    </marker>
+    <marker id="tlam" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#8b9bb8"/>
+    </marker>
+  </defs>
+  <rect width="960" height="660" rx="20" fill="#0b1020"/>
+  <rect width="960" height="660" rx="20" fill="url(#tldots)" opacity="0.9"/>
+  <rect x="0.75" y="0.75" width="958.5" height="658.5" rx="19.5" fill="none" stroke="#1e2a47" stroke-width="1.5"/>
+  <path d="M0.75 46 H959.25" stroke="#1e2a47" stroke-width="1.5"/>
+  <circle cx="26" cy="23" r="6" fill="#ff5f57" opacity="0.85"/>
+  <circle cx="46" cy="23" r="6" fill="#febc2e" opacity="0.85"/>
+  <circle cx="66" cy="23" r="6" fill="#28c840" opacity="0.85"/>
+  <text x="480.0" y="28" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9bb8">lessons/02/tool_loop.py</text>
+  <rect x="680" y="70" width="200" height="64" rx="14" fill="url(#tlg)"/>
+  <text x="780" y="100" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="21" fill="#060a14" font-weight="700">شيفرتك</text>
+  <text x="780" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#0b1630" direction="ltr">tool_loop.py</text>
+  <line x1="780" y1="136" x2="780" y2="636" stroke="#1e2a47" stroke-width="2" stroke-dasharray="4 7"/>
+  <rect x="380" y="70" width="200" height="64" rx="14" fill="#111a33" stroke="#22d3ee" stroke-width="2"/>
+  <text x="480" y="100" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="21" fill="#e6edf7" font-weight="700">النموذج</text>
+  <text x="480" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#22d3ee" direction="ltr">messages.create()</text>
+  <line x1="480" y1="136" x2="480" y2="636" stroke="#1e2a47" stroke-width="2" stroke-dasharray="4 7"/>
+  <rect x="80" y="70" width="200" height="64" rx="14" fill="#111a33" stroke="#a78bfa" stroke-width="2"/>
+  <text x="180" y="100" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="21" fill="#e6edf7" font-weight="700">الأداة</text>
+  <text x="180" y="121" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#a78bfa" direction="ltr">ToolBox.run()</text>
+  <line x1="180" y1="136" x2="180" y2="636" stroke="#1e2a47" stroke-width="2" stroke-dasharray="4 7"/>
+  <path d="M762 200 H486" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="780" cy="200" r="13" fill="url(#tlg)"/>
+  <text x="780" y="205" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="14" font-weight="700" fill="#060a14">١</text>
+  <text x="630.0" y="188" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7">المحادثة وتعريفات الأدوات</text>
+  <path d="M498 278 H774" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="480" cy="278" r="13" fill="url(#tlg)"/>
+  <text x="480" y="283" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="14" font-weight="700" fill="#060a14">٢</text>
+  <text x="630.0" y="266" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7">طلب أداة</text>
+  <text x="630.0" y="302" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8b9bb8" direction="ltr">stop_reason: "tool_use"</text>
+  <path d="M762 358 H186" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="780" cy="358" r="13" fill="url(#tlg)"/>
+  <text x="780" y="363" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="14" font-weight="700" fill="#060a14">٣</text>
+  <text x="480.0" y="346" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7">تحقّق من المدخلات واطلب الإذن ثم نفّذ</text>
+  <path d="M198 434 H774" fill="none" stroke="#a78bfa" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="8 6" marker-end="url(#tlav)"/>
+  <circle cx="180" cy="434" r="13" fill="url(#tlg)"/>
+  <text x="180" y="439" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="14" font-weight="700" fill="#060a14">٤</text>
+  <text x="480.0" y="422" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7">النتيجة، أو رسالة خطأ</text>
+  <path d="M762 514 H486" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="780" cy="514" r="13" fill="url(#tlg)"/>
+  <text x="780" y="519" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="14" font-weight="700" fill="#060a14">٥</text>
+  <text x="630.0" y="502" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7">كل النتائج في رسالة واحدة</text>
+  <text x="630.0" y="538" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8b9bb8" direction="ltr">tool_result (is_error)</text>
+  <path d="M498 594 H774" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" marker-end="url(#tlac)"/>
+  <circle cx="480" cy="594" r="13" fill="url(#tlg)"/>
+  <text x="480" y="599" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="14" font-weight="700" fill="#060a14">٦</text>
+  <text x="630.0" y="582" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7">الجواب النهائي</text>
+  <text x="630.0" y="618" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8b9bb8" direction="ltr">stop_reason: "end_turn"</text>
+  <path d="M868 262 H894 V528 H868" fill="none" stroke="#fb7185" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="912" y="395" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="14" fill="#fb7185" transform="rotate(90 912 395)">تتكرّر حتى ينتهي</text>
+</svg>

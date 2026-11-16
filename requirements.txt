@@ -1,0 +1,4 @@
+# Runtime: the official Anthropic Python SDK (1.x needs Python 3.10+)
+anthropic>=1.1,<2
+# Time-zone data for zoneinfo on Windows (lesson 02 date tool)
+tzdata; sys_platform == "win32"

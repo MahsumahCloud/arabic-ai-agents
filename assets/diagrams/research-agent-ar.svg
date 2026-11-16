@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 580" width="960" height="580" role="img" aria-labelledby="rat rad" lang="ar">
+  <title id="rat">بنية مساعد البحث</title>
+  <desc id="rad">سؤال يدخل حلقة الوكيل التي تخطط وتبحث وتقرأ المستندات المحلية تحت حدّ للخطوات وحدّ للكلفة وكشف للتكرار، ثم تُفحص الاستشهادات قبل إعادة الجواب.</desc>
+  <defs>
+    <linearGradient id="rag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="ragh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="radots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1a2442"/>
+    </pattern>
+    <marker id="raac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#22d3ee"/>
+    </marker>
+    <marker id="raav" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#a78bfa"/>
+    </marker>
+    <marker id="raar" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#fb7185"/>
+    </marker>
+    <marker id="raam" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0.5 L10 5 L0 9.5 z" fill="#8b9bb8"/>
+    </marker>
+  </defs>
+  <rect width="960" height="580" rx="20" fill="#0b1020"/>
+  <rect width="960" height="580" rx="20" fill="url(#radots)" opacity="0.9"/>
+  <rect x="0.75" y="0.75" width="958.5" height="578.5" rx="19.5" fill="none" stroke="#1e2a47" stroke-width="1.5"/>
+  <path d="M0.75 46 H959.25" stroke="#1e2a47" stroke-width="1.5"/>
+  <circle cx="26" cy="23" r="6" fill="#ff5f57" opacity="0.85"/>
+  <circle cx="46" cy="23" r="6" fill="#febc2e" opacity="0.85"/>
+  <circle cx="66" cy="23" r="6" fill="#28c840" opacity="0.85"/>
+  <text x="480.0" y="28" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9bb8">lessons/03/research_agent.py</text>
+  <rect x="548" y="70" width="112" height="54" rx="12" fill="#2a0f1a" stroke="#fb7185" stroke-width="1.6"/>
+  <text x="604" y="93" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="13.5" fill="#fecdd3" font-weight="600">حدّ الخطوات</text>
+  <text x="604" y="113" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#fb7185" direction="ltr">max_steps</text>
+  <rect x="424" y="70" width="112" height="54" rx="12" fill="#2a0f1a" stroke="#fb7185" stroke-width="1.6"/>
+  <text x="480" y="93" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="13.5" fill="#fecdd3" font-weight="600">حدّ الكلفة</text>
+  <text x="480" y="113" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#fb7185" direction="ltr">budget</text>
+  <rect x="300" y="70" width="112" height="54" rx="12" fill="#2a0f1a" stroke="#fb7185" stroke-width="1.6"/>
+  <text x="356" y="93" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="13.5" fill="#fecdd3" font-weight="600">كشف التكرار</text>
+  <text x="356" y="113" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#fb7185" direction="ltr">loop_detected</text>
+  <path d="M480 126 V148" fill="none" stroke="#fb7185" stroke-width="2" stroke-linecap="round" marker-end="url(#raar)"/>
+  <rect x="790" y="240" width="150" height="84" rx="14" fill="#111a33" stroke="#e6edf7" stroke-width="1.6"/>
+  <text x="865" y="276" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="21" fill="#e6edf7" font-weight="700">سؤال</text>
+  <text x="865" y="302" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="14" fill="#8b9bb8">بالعربية</text>
+  <path d="M788 282 H668" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" marker-end="url(#raac)"/>
+  <rect x="300" y="152" width="360" height="290" rx="22" fill="#0d1530" stroke="url(#rag)" stroke-width="2.4"/>
+  <text x="480" y="186" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="21" fill="#e6edf7" font-weight="700">حلقة الوكيل</text>
+  <rect x="505" y="208" width="130" height="58" rx="29" fill="#111a33" stroke="#22d3ee" stroke-width="1.6"/>
+  <text x="570" y="233" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7" font-weight="600">١. خطة</text>
+  <text x="570" y="253" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#22d3ee" direction="ltr">write_plan</text>
+  <rect x="325" y="208" width="130" height="58" rx="29" fill="#111a33" stroke="#22d3ee" stroke-width="1.6"/>
+  <text x="390" y="233" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7" font-weight="600">٢. بحث</text>
+  <text x="390" y="253" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#22d3ee" direction="ltr">search_documents</text>
+  <rect x="325" y="300" width="130" height="58" rx="29" fill="#111a33" stroke="#22d3ee" stroke-width="1.6"/>
+  <text x="390" y="325" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7" font-weight="600">٣. قراءة</text>
+  <text x="390" y="345" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#22d3ee" direction="ltr">read_document</text>
+  <rect x="505" y="300" width="130" height="58" rx="29" fill="#111a33" stroke="#22d3ee" stroke-width="1.6"/>
+  <text x="570" y="325" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16" fill="#e6edf7" font-weight="600">٤. جواب</text>
+  <text x="570" y="345" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#22d3ee" direction="ltr">end_turn</text>
+  <path d="M503 237 H461" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" marker-end="url(#raac)"/>
+  <path d="M390 268 V294" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" marker-end="url(#raac)"/>
+  <path d="M457 329 H499" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linecap="round" marker-end="url(#raac)"/>
+  <text x="480" y="392" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="13.5" fill="#8b9bb8">الذاكرة: المحادثة كاملة تُرسل في كل طلب</text>
+  <text x="480" y="416" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#56627d" direction="ltr">self.messages</text>
+  <rect x="30" y="190" width="200" height="176" rx="14" fill="#111a33" stroke="#a78bfa" stroke-width="1.8"/>
+  <text x="130" y="222" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="17" fill="#ddd6fe" font-weight="700">المستندات المحلية</text>
+  <text x="130" y="254" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9bb8" direction="ltr">calligraphy.txt</text>
+  <text x="130" y="278" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9bb8" direction="ltr">hijri.txt</text>
+  <text x="130" y="302" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9bb8" direction="ltr">palm.txt</text>
+  <text x="130" y="326" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#8b9bb8" direction="ltr">solar.txt</text>
+  <path d="M298 254 H236" fill="none" stroke="#a78bfa" stroke-width="2.5" stroke-linecap="round" marker-end="url(#raav)"/>
+  <path d="M232 302 H294" fill="none" stroke="#a78bfa" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="7 5" marker-end="url(#raav)"/>
+  <path d="M570 444 V480" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" marker-end="url(#raac)"/>
+  <rect x="460" y="486" width="220" height="60" rx="12" fill="#111a33" stroke="#fbbf24" stroke-width="2"/>
+  <text x="570" y="512" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="16.5" fill="#fde68a" font-weight="700">فحص الاستشهادات</text>
+  <text x="570" y="533" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#fbbf24" direction="ltr">check_citations()</text>
+  <path d="M682 516 H748" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" marker-end="url(#raac)"/>
+  <rect x="754" y="480" width="190" height="72" rx="14" fill="url(#rag)"/>
+  <text x="849" y="510" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Noto Sans Arabic','Noto Kufi Arabic','Segoe UI','Geeza Pro',Tahoma,sans-serif" font-size="15.5" fill="#060a14" font-weight="700">جواب مع مصادره</text>
+  <text x="849" y="534" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#0b1630" direction="ltr">[palm.txt:5]</text>
+</svg>

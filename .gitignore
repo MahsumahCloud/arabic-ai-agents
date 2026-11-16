@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets: never commit these
+.env
+*.key
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# local only
+.claude/
+assets/previews/
+.venv/
+__pycache__/
+.pytest_cache/
+.env
