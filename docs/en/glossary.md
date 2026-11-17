@@ -65,6 +65,19 @@ Terms are listed in the order they appear in the lessons. The [Arabic glossary](
 | Review Gate | A point after which implementation doesn't start until a person has read and approved the spec and the tasks | 04 |
 | Verification Verdict | The result of the bug-fixing path: verified, partial or failed | 04 |
 | Idea Assessment | Questions asked before building that end in a decision: go, clarify or stop | 04 |
+| Agent Skill | A folder with an instructions file for one job, which the agent loads only when it needs it | 05 |
+| SKILL.md | The required file in a skill: a header with the name and description, then the instructions | 05 |
+| Front Matter | The lines between two `---` markers at the top of a file, holding fields such as the name and description | 05 |
+| Skill Description | A sentence saying what a skill does and when to use it; the agent decides from it alone whether to open the skill | 05 |
+| Progressive Loading | The description always, the instructions on a match, scripts and resources only on demand | 05 |
+| Skill Catalogue | A list of skills available to install, with where each one lives and its trust signals | 05 |
+| Trust Signals | What suggests a skill is sound, such as a verified source and the install count | 05 |
+| Verified Source | A source reviewed by the catalogue's publisher; the strongest trust signal | 05 |
+| Held-back Skill | A skill that matches the request but has low trust, so it is never recommended | 05 |
+| Install Preview | What is shown before installing: name, description, source, files and warnings | 05 |
+| Explicit Consent | A clear yes from the user; silence or "maybe" is not consent | 05 |
+| Path Traversal | An attempt to read or write outside the allowed folder with a path such as `../` | 05 |
+| Symbolic Link | A file that points at another file, possibly outside the folder it appears to be in | 05 |
 
 ---
 

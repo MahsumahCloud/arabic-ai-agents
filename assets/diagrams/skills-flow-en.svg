@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 596" width="960" height="596" role="img" aria-labelledby="skent skend" lang="en">
+  <title id="skent">Agent skills: how one is loaded, and how the finder installs one</title>
+  <desc id="skend">Top: the agent always sees only each skill's name and description; when a request matches a description it reads that SKILL.md, and opens scripts or resources only if the instructions ask. Bottom: the skill finder searches a local catalogue, ranks by word overlap plus trust, holds back low-trust skills, shows a preview, and copies the folder only after an explicit yes, refusing paths that escape. An installed skill joins the index for the next request.</desc>
+  <defs>
+    <pattern id="skenp" width="56" height="56" patternUnits="userSpaceOnUse"><g fill="none" stroke="#0B0B0C" stroke-width="1"><path d="M28 15 L41 28 L28 41 L15 28 Z"/><path d="M28 22 L34 28 L28 34 L22 28 Z" opacity="0.6"/></g></pattern>
+    <radialGradient id="skeng" gradientUnits="userSpaceOnUse" cx="480" cy="298" r="640"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="0.35" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <mask id="skenm"><rect width="100%" height="100%" fill="url(#skeng)"/></mask>
+    <filter id="skens" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#0B0B0C" flood-opacity="0.05"/><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0B0B0C" flood-opacity="0.1"/></filter>
+    <marker id="skenac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#0B0B0C"/></marker>
+    <marker id="skenav" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#8A8781"/></marker>
+  </defs>
+  <rect width="960" height="596" rx="20" fill="#F7F4EC"/>
+  <rect width="960" height="596" rx="20" fill="url(#skenp)" opacity="0.05" mask="url(#skenm)"/>
+  <rect x="0.75" y="0.75" width="958.5" height="594.5" rx="19.25" fill="none" stroke="#E2DED2" stroke-width="1.5"/>
+  <rect x="22" y="16" width="22" height="22" rx="6" fill="#FFD619"/>
+  <text x="54.0" y="32.0" text-anchor="start" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#6A6862" direction="ltr">lessons/05/</text>
+  <text x="33.0" y="78.0" text-anchor="start" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#0B0B0C" font-weight="700">How the agent loads a skill</text>
+  <rect x="33.0" y="96" width="198" height="112" rx="18" fill="#0B0B0C" stroke="#0B0B0C" stroke-width="2.2"/>
+  <circle cx="55.0" cy="118" r="12" fill="#FFD619"/>
+  <text x="55.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#0B0B0C">1</text>
+  <text x="132.0" y="154.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" fill="#FFD619" font-weight="700">Index</text>
+  <text x="132.0" y="176.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#B8B4AA">name + description only</text>
+  <text x="132.0" y="194.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#B8B4AA">always in view</text>
+  <path d="M234.0 152.0 H250.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#skenac)"/>
+  <rect x="253.0" y="96" width="198" height="112" rx="18" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="2.2" filter="url(#skens)"/>
+  <circle cx="275.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="275.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">2</text>
+  <text x="352.0" y="154.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" fill="#0B0B0C" font-weight="700">Match</text>
+  <text x="352.0" y="176.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#6A6862">the description</text>
+  <text x="352.0" y="194.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#6A6862">is the trigger</text>
+  <path d="M454.0 152.0 H470.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#skenac)"/>
+  <rect x="473.0" y="96" width="198" height="112" rx="18" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="2.2" filter="url(#skens)"/>
+  <circle cx="495.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="495.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">3</text>
+  <text x="572.0" y="154.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" fill="#0B0B0C" font-weight="700" direction="ltr">SKILL.md</text>
+  <text x="572.0" y="176.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#6A6862">full instructions</text>
+  <text x="572.0" y="194.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#6A6862">read on demand</text>
+  <path d="M674.0 152.0 H690.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#skenac)"/>
+  <rect x="693.0" y="96" width="198" height="112" rx="18" fill="#FFD619" stroke="#0B0B0C" stroke-width="2.2" filter="url(#skens)"/>
+  <circle cx="715.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="715.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">4</text>
+  <text x="792.0" y="154.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="20" fill="#0B0B0C" font-weight="700">Extras</text>
+  <text x="792.0" y="176.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#6A6862">scripts, resources</text>
+  <text x="792.0" y="194.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#6A6862">only if asked</text>
+  <rect x="33" y="262" width="894" height="300" rx="18" fill="#FFFFFF" stroke="#D9D4C7" stroke-width="1.5" filter="url(#skens)"/>
+  <text x="57.0" y="300.0" text-anchor="start" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#0B0B0C" font-weight="700">The skill finder</text>
+  <text x="903.0" y="299.0" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#9A978F" direction="ltr">skill_finder.py</text>
+  <rect x="57.0" y="328" width="148" height="50" rx="25" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="131.0" y="359.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">Search</text>
+  <text x="131.0" y="400.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6A6862" direction="ltr">catalog.json</text>
+  <path d="M208.0 353.0 H230.0" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-linecap="round" marker-end="url(#skenac)"/>
+  <rect x="233.0" y="328" width="148" height="50" rx="25" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="307.0" y="359.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">Rank</text>
+  <text x="307.0" y="400.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#6A6862">words + trust</text>
+  <path d="M384.0 353.0 H406.0" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-linecap="round" marker-end="url(#skenac)"/>
+  <rect x="409.0" y="328" width="148" height="50" rx="25" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="483.0" y="359.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">Rules</text>
+  <text x="483.0" y="400.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#6A6862">hold back low trust</text>
+  <path d="M560.0 353.0 H582.0" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-linecap="round" marker-end="url(#skenac)"/>
+  <rect x="585.0" y="328" width="148" height="50" rx="25" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="659.0" y="359.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">Preview</text>
+  <text x="659.0" y="400.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#6A6862">files + warnings</text>
+  <path d="M736.0 353.0 H758.0" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-linecap="round" marker-end="url(#skenac)"/>
+  <rect x="761.0" y="328" width="148" height="50" rx="25" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="835.0" y="359.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">Yes?</text>
+  <text x="835.0" y="400.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#6A6862">explicit only</text>
+  <path d="M835.0 412 V448" fill="none" stroke="#8A8781" stroke-width="1.8" stroke-linecap="round" marker-end="url(#skenav)"/>
+  <rect x="87.0" y="458" width="250" height="40" rx="20" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="212.0" y="484.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#0B0B0C" font-weight="700">yes: folder copied</text>
+  <rect x="355.0" y="458" width="250" height="40" rx="20" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="480.0" y="484.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#0B0B0C" font-weight="700">no: nothing copied</text>
+  <rect x="623.0" y="458" width="250" height="40" rx="20" fill="#0B0B0C" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="748.0" y="484.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14.5" fill="#FFD619" font-weight="700">refused: low trust or bad path</text>
+  <text x="480.0" y="542.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#6A6862" font-weight="600">The finder copies files. It never runs what it installs.</text>
+  <path d="M132.0 258 V216" fill="none" stroke="#0B0B0C" stroke-width="2.2" stroke-dasharray="7 6" stroke-linecap="round" marker-end="url(#skenac)"/>
+  <text x="146.0" y="246.0" text-anchor="start" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#0B0B0C" font-weight="600">available from the next request</text>
+</svg>

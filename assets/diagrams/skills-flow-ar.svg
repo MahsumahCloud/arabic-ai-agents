@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 596" width="960" height="596" role="img" aria-labelledby="skart skard" lang="ar">
+  <title id="skart">مهارات الوكيل: كيف تُحمَّل المهارة، وكيف يثبّتها الباحث</title>
+  <desc id="skard">في الأعلى: لا يرى الوكيل دائماً إلا اسم كل مهارة ووصفها، وحين يطابق الطلب وصفاً يقرأ SKILL.md الخاص بها، ولا يفتح السكربتات أو الموارد إلا إن طلبت التعليمات ذلك. في الأسفل: الباحث عن المهارات يبحث في فهرس محلي، ويرتّب بتطابق الكلمات والثقة، ويحجب المهارات منخفضة الثقة، ويعرض معاينة، ولا ينسخ المجلد إلا بعد موافقة صريحة، ويرفض المسارات التي تخرج من مكانها. والمهارة المثبّتة تدخل الفهرس من الطلب التالي.</desc>
+  <defs>
+    <pattern id="skarp" width="56" height="56" patternUnits="userSpaceOnUse"><g fill="none" stroke="#0B0B0C" stroke-width="1"><path d="M28 15 L41 28 L28 41 L15 28 Z"/><path d="M28 22 L34 28 L28 34 L22 28 Z" opacity="0.6"/></g></pattern>
+    <radialGradient id="skarg" gradientUnits="userSpaceOnUse" cx="480" cy="298" r="640"><stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="0.35" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <mask id="skarm"><rect width="100%" height="100%" fill="url(#skarg)"/></mask>
+    <filter id="skars" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#0B0B0C" flood-opacity="0.05"/><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0B0B0C" flood-opacity="0.1"/></filter>
+    <marker id="skarac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#0B0B0C"/></marker>
+    <marker id="skarav" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#8A8781"/></marker>
+  </defs>
+  <rect width="960" height="596" rx="20" fill="#F7F4EC"/>
+  <rect width="960" height="596" rx="20" fill="url(#skarp)" opacity="0.05" mask="url(#skarm)"/>
+  <rect x="0.75" y="0.75" width="958.5" height="594.5" rx="19.25" fill="none" stroke="#E2DED2" stroke-width="1.5"/>
+  <rect x="916" y="16" width="22" height="22" rx="6" fill="#FFD619"/>
+  <text x="906.0" y="32.0" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#6A6862" direction="ltr">lessons/05/</text>
+  <text x="927.0" y="78.0" text-anchor="end" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="18" fill="#0B0B0C" font-weight="700">‫كيف يحمّل الوكيل المهارة‬</text>
+  <rect x="729.0" y="96" width="198" height="112" rx="18" fill="#0B0B0C" stroke="#0B0B0C" stroke-width="2.2"/>
+  <circle cx="905.0" cy="118" r="12" fill="#FFD619"/>
+  <text x="905.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#0B0B0C">1</text>
+  <text x="828.0" y="154.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="20" fill="#FFD619" font-weight="700">‫الفهرس‬</text>
+  <text x="828.0" y="176.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13" fill="#B8B4AA">‫الاسم والوصف فقط‬</text>
+  <text x="828.0" y="194.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13" fill="#B8B4AA">‫أمامه دائماً‬</text>
+  <path d="M726.0 152.0 H710.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#skarac)"/>
+  <rect x="509.0" y="96" width="198" height="112" rx="18" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="2.2" filter="url(#skars)"/>
+  <circle cx="685.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="685.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">2</text>
+  <text x="608.0" y="154.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="20" fill="#0B0B0C" font-weight="700">‫التطابق‬</text>
+  <text x="608.0" y="176.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13" fill="#6A6862">‫الوصف هو‬</text>
+  <text x="608.0" y="194.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13" fill="#6A6862">‫ما يستدعي المهارة‬</text>
+  <path d="M506.0 152.0 H490.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#skarac)"/>
+  <rect x="289.0" y="96" width="198" height="112" rx="18" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="2.2" filter="url(#skars)"/>
+  <circle cx="465.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="465.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">3</text>
+  <text x="388.0" y="154.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="20" fill="#0B0B0C" font-weight="700" direction="ltr">SKILL.md</text>
+  <text x="388.0" y="176.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13" fill="#6A6862">‫التعليمات كاملة‬</text>
+  <text x="388.0" y="194.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13" fill="#6A6862">‫تُقرأ عند الحاجة‬</text>
+  <path d="M286.0 152.0 H270.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#skarac)"/>
+  <rect x="69.0" y="96" width="198" height="112" rx="18" fill="#FFD619" stroke="#0B0B0C" stroke-width="2.2" filter="url(#skars)"/>
+  <circle cx="245.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="245.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">4</text>
+  <text x="168.0" y="154.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="20" fill="#0B0B0C" font-weight="700">‫الملحقات‬</text>
+  <text x="168.0" y="176.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13" fill="#6A6862">‫سكربتات وموارد‬</text>
+  <text x="168.0" y="194.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13" fill="#6A6862">‫إن طلبتها التعليمات‬</text>
+  <rect x="33" y="262" width="894" height="300" rx="18" fill="#FFFFFF" stroke="#D9D4C7" stroke-width="1.5" filter="url(#skars)"/>
+  <text x="903.0" y="300.0" text-anchor="end" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="18" fill="#0B0B0C" font-weight="700">‫الباحث عن المهارات‬</text>
+  <text x="57.0" y="299.0" text-anchor="start" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#9A978F" direction="ltr">skill_finder.py</text>
+  <rect x="755.0" y="328" width="148" height="50" rx="25" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="829.0" y="359.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">‫ابحث‬</text>
+  <text x="829.0" y="400.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#6A6862" direction="ltr">catalog.json</text>
+  <path d="M752.0 353.0 H730.0" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-linecap="round" marker-end="url(#skarac)"/>
+  <rect x="579.0" y="328" width="148" height="50" rx="25" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="653.0" y="359.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">‫رتّب‬</text>
+  <text x="653.0" y="400.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="12.5" fill="#6A6862">‫كلمات + ثقة‬</text>
+  <path d="M576.0 353.0 H554.0" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-linecap="round" marker-end="url(#skarac)"/>
+  <rect x="403.0" y="328" width="148" height="50" rx="25" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="477.0" y="359.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">‫القواعد‬</text>
+  <text x="477.0" y="400.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="12.5" fill="#6A6862">‫احجب منخفض الثقة‬</text>
+  <path d="M400.0 353.0 H378.0" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-linecap="round" marker-end="url(#skarac)"/>
+  <rect x="227.0" y="328" width="148" height="50" rx="25" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="301.0" y="359.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">‫المعاينة‬</text>
+  <text x="301.0" y="400.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="12.5" fill="#6A6862">‫الملفات والتنبيهات‬</text>
+  <path d="M224.0 353.0 H202.0" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-linecap="round" marker-end="url(#skarac)"/>
+  <rect x="51.0" y="328" width="148" height="50" rx="25" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="125.0" y="359.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="16" fill="#0B0B0C" font-weight="700">‫موافقة؟‬</text>
+  <text x="125.0" y="400.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="12.5" fill="#6A6862">‫صريحة فقط‬</text>
+  <path d="M125.0 412 V448" fill="none" stroke="#8A8781" stroke-width="1.8" stroke-linecap="round" marker-end="url(#skarav)"/>
+  <rect x="623.0" y="458" width="250" height="40" rx="20" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="748.0" y="484.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="14.5" fill="#0B0B0C" font-weight="700">‫نعم: يُنسخ المجلد‬</text>
+  <rect x="355.0" y="458" width="250" height="40" rx="20" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="480.0" y="484.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="14.5" fill="#0B0B0C" font-weight="700">‫لا: لا يُنسخ شيء‬</text>
+  <rect x="87.0" y="458" width="250" height="40" rx="20" fill="#0B0B0C" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="212.0" y="484.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="14.5" fill="#FFD619" font-weight="700">‫رفض: ثقة منخفضة أو مسار خاطئ‬</text>
+  <text x="480.0" y="542.0" text-anchor="middle" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="14" fill="#6A6862" font-weight="600">‫الباحث ينسخ الملفات فقط، ولا يشغّل أبداً ما يثبّته.‬</text>
+  <path d="M828.0 258 V216" fill="none" stroke="#0B0B0C" stroke-width="2.2" stroke-dasharray="7 6" stroke-linecap="round" marker-end="url(#skarac)"/>
+  <text x="814.0" y="246.0" text-anchor="end" font-family="'IBM Plex Sans Arabic','Estedad','Noto Sans Arabic','Segoe UI','Geeza Pro',Arial,Tahoma,sans-serif" font-size="13.5" fill="#0B0B0C" font-weight="600">‫متاحة من الطلب التالي‬</text>
+</svg>

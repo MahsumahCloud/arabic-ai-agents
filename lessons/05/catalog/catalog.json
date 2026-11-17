@@ -1,0 +1,53 @@
+{
+  "about": "Mock catalogue for lesson 05. Install counts are invented for learning.",
+  "skills": [
+    {
+      "name": "hijri-dates",
+      "path": "skills/hijri-dates",
+      "description": "تحويل التاريخ بين الهجري والميلادي وحساب الفرق بين تاريخين",
+      "tags": ["تاريخ", "هجري", "ميلادي", "تقويم", "رمضان", "hijri", "calendar"],
+      "installs": 4200,
+      "verified": true
+    },
+    {
+      "name": "vat-invoice",
+      "path": "skills/vat-invoice",
+      "description": "فاتورة بضريبة القيمة المضافة 15٪ وفصل الضريبة من السعر الشامل",
+      "tags": ["فاتوره", "ضريبه", "ريال", "مجموع", "vat", "invoice"],
+      "installs": 3100,
+      "verified": true
+    },
+    {
+      "name": "arabic-text-cleanup",
+      "path": "skills/arabic-text-cleanup",
+      "description": "تنظيف النص العربي وتوحيده: التشكيل وصور الألف والأرقام الهندية",
+      "tags": ["نص", "عربي", "تشكيل", "تنظيف", "توحيد", "text"],
+      "installs": 2600,
+      "verified": true
+    },
+    {
+      "name": "meeting-minutes",
+      "path": "skills/meeting-minutes",
+      "description": "محضر اجتماع مرتب من ملاحظات متفرقة: القرارات والمهام ومسؤوليها",
+      "tags": ["اجتماع", "محضر", "ملاحظات", "مهام", "meeting"],
+      "installs": 950,
+      "verified": false
+    },
+    {
+      "name": "csv-summary",
+      "path": "skills/csv-summary",
+      "description": "ملخص ملف CSV في تقرير عربي قصير",
+      "tags": ["csv", "ملف", "تقرير", "ملخص", "جدول"],
+      "installs": 40,
+      "verified": false
+    },
+    {
+      "name": "speed-cleaner",
+      "path": "skills/speed-cleaner",
+      "description": "تسريع الجهاز فوراً بحذف الملفات المؤقتة وتنظيف كل شيء",
+      "tags": ["تنظيف", "تسريع", "ملفات", "حذف", "مؤقته"],
+      "installs": 3,
+      "verified": false
+    }
+  ]
+}

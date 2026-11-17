@@ -19,7 +19,7 @@
 <p align="center">
   <img alt="Python 3.10+" src="assets/badges/python-ar.svg" height="34">
   <img alt="الاختبارات: دون اتصال وبلا مفتاح" src="assets/badges/tests-ar.svg" height="34">
-  <img alt="الدروس: 5 من 13" src="assets/badges/lessons-ar.svg" height="34">
+  <img alt="الدروس: 6 من 13" src="assets/badges/lessons-ar.svg" height="34">
   <img alt="الشيفرة: MIT" src="assets/badges/code-ar.svg" height="34">
   <img alt="المحتوى: CC BY 4.0" src="assets/badges/content-ar.svg" height="34">
 </p>
@@ -74,6 +74,7 @@ plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب م�
 - **حلقة استخدام الأدوات مكتوبة يدوياً** سطراً سطراً.
 - **«مساعد بحث»** يقرأ مستندات عربية محلية، ويخطط، ويتذكر المحادثة، ويتوقف بأمان، ويحسب كلفته، ويُتحقَّق من كل استشهاد في إجابته.
 - **ميزة كاملة بالتطوير الموجّه بالمواصفات:** حاسبة فاتورة بالضريبة تمرّ بالدستور والمواصفات والخطة والمهام قبل أن تُكتب الشيفرة، وأداة تفحص المواصفات والمهام قبل البناء.
+- **«باحثاً عن المهارات»:** مهارة تجد لوكيلك القدرة التي تنقصه، وترتّب النتائج بالثقة، ولا تثبّت شيئاً إلا بموافقتك.
 
 ## خريطة الدورة
 
@@ -84,8 +85,8 @@ plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب م�
 | <img src="assets/icons/tools.svg" width="32" height="32" alt=""> | 02 | [الأدوات من الصفر](docs/02-tools/README.md) | تعريف الأدوات بمخطط JSON، والحلقة اليدوية، ومعالجة الأخطاء، وحراسة الأدوات الخطرة | **متاح** |
 | <img src="assets/icons/research.svg" width="32" height="32" alt=""> | 03 | [أول وكيل حقيقي: «مساعد بحث»](docs/03-first-agent/README.md) | التخطيط، والذاكرة، وشروط التوقف، وحساب الكلفة، وفحص الاستشهادات | **متاح** |
 | <img src="assets/icons/spec.svg" width="32" height="32" alt=""> | 04 | [التطوير الموجّه بالمواصفات](docs/04-spec-driven/README.md) | الدستور والمواصفات والخطة والمهام والتنفيذ مع وكيل البرمجة، ومسار إصلاح الأخطاء، وتقييم الفكرة قبل بنائها | **متاح** |
-| <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 05 | بروتوكول MCP: ابنِ خادم أدوات | ربط الوكيل بأدوات خارجية بمعيار مفتوح | قريباً |
-| <img src="assets/icons/skills-soon.svg" width="32" height="32" alt=""> | 06 | المهارات | حزم تعليمات وموارد يحمّلها الوكيل عند الحاجة | قريباً |
+| <img src="assets/icons/skills.svg" width="32" height="32" alt=""> | 05 | [مهارات الوكيل الذكي](docs/05-agent-skills/README.md) | ما المهارة، وكيف يقرر الوكيل أن يحمّلها، وبناء مهارة تبحث عن المهارات وترتّبها بالثقة وتثبّتها بموافقتك | **متاح** |
+| <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 06 | بروتوكول MCP: ابنِ خادم أدوات | ربط الوكيل بأدوات خارجية بمعيار مفتوح | قريباً |
 | <img src="assets/icons/memory-soon.svg" width="32" height="32" alt=""> | 07 | الذاكرة الطويلة والاسترجاع (RAG) | التضمينات، والبحث الدلالي، وإدارة السياق الطويل | قريباً |
 | <img src="assets/icons/eval-soon.svg" width="32" height="32" alt=""> | 08 | تقييم الوكلاء | كيف تقيس جودة الوكيل بأرقام لا بانطباعات | قريباً |
 | <img src="assets/icons/security-soon.svg" width="32" height="32" alt=""> | 09 | أمان الوكلاء | الصلاحيات، وحقن التعليمات، والموافقات، والسجلات | قريباً |
@@ -111,6 +112,7 @@ export ANTHROPIC_API_KEY="..."            # never write it in code
 python lessons/02/tool_loop.py "كم يساوي ١٥٪ من ٢٤٨٠؟"
 python lessons/03/research_agent.py
 python lessons/04/spec_check.py lessons/04/example   # read the spec before building
+python lessons/05/skill_finder.py "التاريخ الهجري"    # find a skill, install only on yes
 ```
 
 </div>

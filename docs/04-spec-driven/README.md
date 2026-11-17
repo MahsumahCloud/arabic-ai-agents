@@ -308,6 +308,6 @@ specify extension add assess   # /speckit-assess-intake ... /speckit-assess-deci
 
 ---
 
-<p align="center"><b>السابق:</b> <a href="../03-first-agent/README.md">الدرس 03: أول وكيل حقيقي</a> · <a href="../../README.md#خريطة-الدورة">خريطة الدورة</a> · <b>التالي:</b> الدرس 05: بناء خادم MCP (قريباً)</p>
+<p align="center"><b>السابق:</b> <a href="../03-first-agent/README.md">الدرس 03: أول وكيل حقيقي</a> · <a href="../../README.md#خريطة-الدورة">خريطة الدورة</a> · <b>التالي:</b> <a href="../05-agent-skills/README.md">الدرس 05: مهارات الوكيل الذكي</a></p>
 
 </div>

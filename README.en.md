@@ -19,7 +19,7 @@
 <p align="center">
   <img alt="Python 3.10+" src="assets/badges/python-en.svg" height="34">
   <img alt="Tests: offline, no API key" src="assets/badges/tests-en.svg" height="34">
-  <img alt="Lessons: 5 of 13" src="assets/badges/lessons-en.svg" height="34">
+  <img alt="Lessons: 6 of 13" src="assets/badges/lessons-en.svg" height="34">
   <img alt="Code: MIT" src="assets/badges/code-en.svg" height="34">
   <img alt="Content: CC BY 4.0" src="assets/badges/content-en.svg" height="34">
 </p>
@@ -61,6 +61,7 @@ On the way there, you build by hand:
 - **The tool-use loop, written by hand**, line by line.
 - **A research assistant** that reads local Arabic documents, plans, remembers the conversation, stops safely, tracks its own cost, and has every citation in its answer checked.
 - **A complete feature, built spec-first:** a VAT invoice calculator taken through a constitution, a spec, a plan and a task list before any code is written, and a tool that checks the spec and the tasks before building.
+- **A skill finder:** a skill that finds the capability your agent is missing, ranks the results by trust, and installs nothing without your yes.
 
 ## Course map
 
@@ -71,8 +72,8 @@ On the way there, you build by hand:
 | <img src="assets/icons/tools.svg" width="32" height="32" alt=""> | 02 | [Tools from scratch](docs/en/02-tools/README.md) | Defining tools with JSON Schema, the hand-written loop, error handling, and guarding dangerous tools | **available** |
 | <img src="assets/icons/research.svg" width="32" height="32" alt=""> | 03 | [A first real agent: research assistant](docs/en/03-first-agent/README.md) | Planning, memory, stopping conditions, cost tracking, and citation checks | **available** |
 | <img src="assets/icons/spec.svg" width="32" height="32" alt=""> | 04 | [Spec-driven development](docs/en/04-spec-driven/README.md) | Constitution, spec, plan, tasks and implementation with a coding agent, a bug-fixing path, and assessing an idea before building it | **available** |
-| <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 05 | MCP: build a tool server | Connecting an agent to external tools through an open standard | coming soon |
-| <img src="assets/icons/skills-soon.svg" width="32" height="32" alt=""> | 06 | Agent skills | Bundles of instructions and resources an agent loads when it needs them | coming soon |
+| <img src="assets/icons/skills.svg" width="32" height="32" alt=""> | 05 | [Agent skills](docs/en/05-agent-skills/README.md) | What a skill is, how an agent decides to load one, and building a skill that finds skills, ranks them by trust and installs one only with your consent | **available** |
+| <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 06 | MCP: build a tool server | Connecting an agent to external tools through an open standard | coming soon |
 | <img src="assets/icons/memory-soon.svg" width="32" height="32" alt=""> | 07 | Long-term memory and retrieval (RAG) | Embeddings, semantic search, and managing long context | coming soon |
 | <img src="assets/icons/eval-soon.svg" width="32" height="32" alt=""> | 08 | Evaluating agents | Measuring an agent's quality with numbers, not impressions | coming soon |
 | <img src="assets/icons/security-soon.svg" width="32" height="32" alt=""> | 09 | Agent security | Permissions, prompt injection, approvals, and logs | coming soon |
@@ -95,6 +96,7 @@ export ANTHROPIC_API_KEY="..."            # never write it in code
 python lessons/02/tool_loop.py "What is 15% of 2480?"
 python lessons/03/research_agent.py
 python lessons/04/spec_check.py lessons/04/example   # read the spec before building
+python lessons/05/skill_finder.py "hijri calendar"    # find a skill, install only on yes
 ```
 
 The Arabic prompt above asks "what is 15% of 2480?" (written with Arabic-Indic digits, which the calculator tool accepts). Details, the Windows steps, and how cost is calculated are all in [Lesson 00](docs/en/00-setup/README.md).

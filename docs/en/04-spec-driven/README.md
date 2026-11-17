@@ -267,4 +267,4 @@ Full definitions in the [glossary](../glossary.md).
 
 ---
 
-<p align="center"><b>Previous:</b> <a href="../03-first-agent/README.md">Lesson 03: A first real agent</a> · <a href="../../../README.en.md#course-map">Course map</a> · <b>Next:</b> Lesson 05: Build an MCP server (coming soon)</p>
+<p align="center"><b>Previous:</b> <a href="../03-first-agent/README.md">Lesson 03: A first real agent</a> · <a href="../../../README.en.md#course-map">Course map</a> · <b>Next:</b> <a href="../05-agent-skills/README.md">Lesson 05: Agent skills</a></p>
