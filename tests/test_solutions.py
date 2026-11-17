@@ -1,5 +1,5 @@
 import pytest
-from conftest import load
+from conftest import ROOT, load
 from fakes import FakeClient, response, text, thinking, tool_use
 
 ex1_1 = load("solutions/01/ex1_min_steps.py")
@@ -71,3 +71,36 @@ def test_require_citations_retries_once():
     answer = ex3_2.ask_with_citations(agent, "ما أقدم الخطوط؟")
     assert answer.citations.ok
     assert len(client.requests) == 3
+
+
+# ---- lesson 04 --------------------------------------------------------------
+
+from decimal import Decimal as D  # noqa: E402
+
+ex4_1 = load("solutions/04/ex1_discount.py")
+ex4_2 = load("solutions/04/ex2_vague_words.py")
+vat4 = load("lessons/04/vat_invoice.py")
+
+
+def test_discount_comes_off_before_vat():
+    lines = [vat4.Line("قهوة", D("15")), vat4.Line("كعكة", D("22.5"))]
+    result = ex4_1.totals_with_discount(lines, "٧٫٥")
+    assert (result.subtotal, result.vat, result.total) == (D("30.00"), D("4.50"), D("34.50"))
+    assert ex4_1.totals_with_discount(lines, D("0")).total == D("43.13")
+
+
+def test_discount_larger_than_subtotal_is_refused():
+    with pytest.raises(ValueError):
+        ex4_1.totals_with_discount([vat4.Line("شاي", D("5"))], "6")
+    with pytest.raises(ValueError):
+        ex4_1.totals_with_discount([vat4.Line("شاي", D("5"))], "-1")
+
+
+def test_vague_words_found_with_prefixes_and_diacritics():
+    text = "واجهة سريعة وسهلة\nتعمل بشكلٍ جيدٍ إلخ\nالمجموع 37.50 بالضبط"
+    assert ex4_2.vague_lines(text) == [(1, "سريعة"), (1, "سهلة"), (2, "جيد"), (2, "إلخ")]
+
+
+def test_example_spec_has_no_vague_words():
+    spec_text = (ROOT / "lessons/04/example/spec.md").read_text(encoding="utf-8")
+    assert ex4_2.vague_lines(spec_text) == []

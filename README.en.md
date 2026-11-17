@@ -19,7 +19,7 @@
 <p align="center">
   <img alt="Python 3.10+" src="assets/badges/python-en.svg" height="34">
   <img alt="Tests: offline, no API key" src="assets/badges/tests-en.svg" height="34">
-  <img alt="Lessons: 4 of 12" src="assets/badges/lessons-en.svg" height="34">
+  <img alt="Lessons: 5 of 13" src="assets/badges/lessons-en.svg" height="34">
   <img alt="Code: MIT" src="assets/badges/code-en.svg" height="34">
   <img alt="Content: CC BY 4.0" src="assets/badges/content-en.svg" height="34">
 </p>
@@ -60,6 +60,7 @@ On the way there, you build by hand:
 - **Safe tools from scratch:** a calculator without `eval`, date and time, a sandboxed file reader, and a delete tool that only runs with your approval.
 - **The tool-use loop, written by hand**, line by line.
 - **A research assistant** that reads local Arabic documents, plans, remembers the conversation, stops safely, tracks its own cost, and has every citation in its answer checked.
+- **A complete feature, built spec-first:** a VAT invoice calculator taken through a constitution, a spec, a plan and a task list before any code is written, and a tool that checks the spec and the tasks before building.
 
 ## Course map
 
@@ -69,14 +70,15 @@ On the way there, you build by hand:
 | <img src="assets/icons/agent.svg" width="32" height="32" alt=""> | 01 | [What is an agent?](docs/en/01-what-is-an-agent/README.md) | Model vs. workflow vs. agent, the perceive, think, act loop, when not to build an agent, and your first request | **available** |
 | <img src="assets/icons/tools.svg" width="32" height="32" alt=""> | 02 | [Tools from scratch](docs/en/02-tools/README.md) | Defining tools with JSON Schema, the hand-written loop, error handling, and guarding dangerous tools | **available** |
 | <img src="assets/icons/research.svg" width="32" height="32" alt=""> | 03 | [A first real agent: research assistant](docs/en/03-first-agent/README.md) | Planning, memory, stopping conditions, cost tracking, and citation checks | **available** |
-| <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 04 | MCP: build a tool server | Connecting an agent to external tools through an open standard | coming soon |
-| <img src="assets/icons/skills-soon.svg" width="32" height="32" alt=""> | 05 | Agent skills | Bundles of instructions and resources an agent loads when it needs them | coming soon |
-| <img src="assets/icons/memory-soon.svg" width="32" height="32" alt=""> | 06 | Long-term memory and retrieval (RAG) | Embeddings, semantic search, and managing long context | coming soon |
-| <img src="assets/icons/eval-soon.svg" width="32" height="32" alt=""> | 07 | Evaluating agents | Measuring an agent's quality with numbers, not impressions | coming soon |
-| <img src="assets/icons/security-soon.svg" width="32" height="32" alt=""> | 08 | Agent security | Permissions, prompt injection, approvals, and logs | coming soon |
-| <img src="assets/icons/multi-soon.svg" width="32" height="32" alt=""> | 09 | Multi-agent systems | When to split work across several agents, and how | coming soon |
-| <img src="assets/icons/deploy-soon.svg" width="32" height="32" alt=""> | 10 | Deployment and monitoring | Running an agent for real, and watching its cost and errors | coming soon |
-| <img src="assets/icons/capstone-soon.svg" width="32" height="32" alt=""> | 11 | Capstone project | A complete agent, from idea to production | coming soon |
+| <img src="assets/icons/spec.svg" width="32" height="32" alt=""> | 04 | [Spec-driven development](docs/en/04-spec-driven/README.md) | Constitution, spec, plan, tasks and implementation with a coding agent, a bug-fixing path, and assessing an idea before building it | **available** |
+| <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 05 | MCP: build a tool server | Connecting an agent to external tools through an open standard | coming soon |
+| <img src="assets/icons/skills-soon.svg" width="32" height="32" alt=""> | 06 | Agent skills | Bundles of instructions and resources an agent loads when it needs them | coming soon |
+| <img src="assets/icons/memory-soon.svg" width="32" height="32" alt=""> | 07 | Long-term memory and retrieval (RAG) | Embeddings, semantic search, and managing long context | coming soon |
+| <img src="assets/icons/eval-soon.svg" width="32" height="32" alt=""> | 08 | Evaluating agents | Measuring an agent's quality with numbers, not impressions | coming soon |
+| <img src="assets/icons/security-soon.svg" width="32" height="32" alt=""> | 09 | Agent security | Permissions, prompt injection, approvals, and logs | coming soon |
+| <img src="assets/icons/multi-soon.svg" width="32" height="32" alt=""> | 10 | Multi-agent systems | When to split work across several agents, and how | coming soon |
+| <img src="assets/icons/deploy-soon.svg" width="32" height="32" alt=""> | 11 | Deployment and monitoring | Running an agent for real, and watching its cost and errors | coming soon |
+| <img src="assets/icons/capstone-soon.svg" width="32" height="32" alt=""> | 12 | Capstone project | A complete agent, from idea to production | coming soon |
 
 Every lesson has: a clear explanation, diagrams, runnable code, "common mistakes", a "check yourself" quiz, exercises with separate solutions, and key terms collected in the [glossary](docs/en/glossary.md). The original Arabic edition of each lesson is one click away at the top of every page.
 
@@ -92,6 +94,7 @@ python lessons/01/agent_loop_toy.py       # the agent loop, no API key
 export ANTHROPIC_API_KEY="..."            # never write it in code
 python lessons/02/tool_loop.py "What is 15% of 2480?"
 python lessons/03/research_agent.py
+python lessons/04/spec_check.py lessons/04/example   # read the spec before building
 ```
 
 The Arabic prompt above asks "what is 15% of 2480?" (written with Arabic-Indic digits, which the calculator tool accepts). Details, the Windows steps, and how cost is calculated are all in [Lesson 00](docs/en/00-setup/README.md).

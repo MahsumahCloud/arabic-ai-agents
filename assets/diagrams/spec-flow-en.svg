@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" width="960" height="660" role="img" aria-labelledby="sfent sfend" lang="en">
+  <title id="sfent">Spec-driven development: five steps and two side paths</title>
+  <desc id="sfend">The constitution once per project, then for every feature: specify, plan, tasks, implement, with a review gate before implementing and a converge loop that adds missing tasks. Below, two paths: fixing a bug in three steps ending in verified, partial or failed, and assessing an idea in five steps ending in go, clarify or stop, where go hands over to Specify.</desc>
+  <defs>
+    <pattern id="sfenp" width="56" height="56" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#0B0B0C" stroke-width="1">
+        <path d="M28.0 15.0 L41.0 28.0 L28.0 41.0 L15.0 28.0 Z"/>
+        <path d="M28.0 22.0 L34.0 28.0 L28.0 34.0 L22.0 28.0 Z" opacity="0.6"/>
+      </g>
+      <g fill="#0B0B0C"><circle cx="0" cy="0" r="1.3"/><circle cx="56" cy="0" r="1.3"/><circle cx="0" cy="56" r="1.3"/><circle cx="56" cy="56" r="1.3"/></g>
+    </pattern>
+    <radialGradient id="sfenpg" gradientUnits="userSpaceOnUse" cx="480" cy="330" r="640">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="0.35" stop-color="#fff" stop-opacity="0.85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="sfenpm"><rect width="100%" height="100%" fill="url(#sfenpg)"/></mask>
+    <filter id="sfens" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#0B0B0C" flood-opacity="0.05"/><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0B0B0C" flood-opacity="0.1"/></filter>
+    <marker id="sfenac" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#0B0B0C"/></marker><marker id="sfenav" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0.5 0.8 L9.5 5 L0.5 9.2 z" fill="#8A8781"/></marker>
+  </defs>
+  <rect width="960" height="660" rx="20" fill="#F7F4EC"/>
+  <rect width="960" height="660" rx="20" fill="url(#sfenp)" opacity="0.05" mask="url(#sfenpm)"/>
+  <rect x="0.75" y="0.75" width="958.5" height="658.5" rx="19.25" fill="none" stroke="#E2DED2" stroke-width="1.5"/>
+  <rect x="22" y="16" width="22" height="22" rx="6" fill="#FFD619"/>
+  <path d="M29 22 L34 27 L29 32" fill="none" stroke="#0B0B0C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="54.0" y="32.0" text-anchor="start" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#6A6862" direction="ltr">lessons/04/example/</text>
+  <path d="M852.0 92 C852.0 56 666.0 56 666.0 88" fill="none" stroke="#8A8781" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="6 5" marker-end="url(#sfenav)"/>
+  <text x="759.0" y="52.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#6A6862">converge: gaps? tasks added</text>
+  <text x="108.0" y="84.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#6A6862">once per project</text>
+  <rect x="33.0" y="96.0" width="150" height="104" rx="18" fill="#0B0B0C" stroke="#0B0B0C" stroke-width="2.2"/>
+  <circle cx="55.0" cy="118" r="12" fill="#FFD619"/>
+  <text x="55.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#0B0B0C">1</text>
+  <text x="108.0" y="152.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="19" fill="#FFD619" font-weight="700">Constitution</text>
+  <text x="108.0" y="172.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#B8B4AA">rules not to break</text>
+  <text x="108.0" y="191.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#B8B4AA" direction="ltr">constitution.md</text>
+  <path d="M187.0 148.0 H215.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#sfenac)"/>
+  <rect x="219.0" y="96.0" width="150" height="104" rx="18" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="2.2" filter="url(#sfens)"/>
+  <circle cx="241.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="241.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">2</text>
+  <text x="294.0" y="152.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="19" fill="#0B0B0C" font-weight="700">Specify</text>
+  <text x="294.0" y="172.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#6A6862">what and why</text>
+  <text x="294.0" y="191.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#6A6862" direction="ltr">spec.md</text>
+  <path d="M373.0 148.0 H401.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#sfenac)"/>
+  <rect x="405.0" y="96.0" width="150" height="104" rx="18" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="2.2" filter="url(#sfens)"/>
+  <circle cx="427.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="427.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">3</text>
+  <text x="480.0" y="152.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="19" fill="#0B0B0C" font-weight="700">Plan</text>
+  <text x="480.0" y="172.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#6A6862">how, which stack</text>
+  <text x="480.0" y="191.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#6A6862" direction="ltr">plan.md</text>
+  <path d="M559.0 148.0 H587.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#sfenac)"/>
+  <rect x="591.0" y="96.0" width="150" height="104" rx="18" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="2.2" filter="url(#sfens)"/>
+  <circle cx="613.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="613.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">4</text>
+  <text x="666.0" y="152.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="19" fill="#0B0B0C" font-weight="700">Tasks</text>
+  <text x="666.0" y="172.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#6A6862">numbered list</text>
+  <text x="666.0" y="191.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#6A6862" direction="ltr">tasks.md</text>
+  <path d="M745.0 148.0 H773.0" fill="none" stroke="#0B0B0C" stroke-width="2.5" stroke-linecap="round" marker-end="url(#sfenac)"/>
+  <rect x="777.0" y="96.0" width="150" height="104" rx="18" fill="#FFD619" stroke="#0B0B0C" stroke-width="2.2" filter="url(#sfens)"/>
+  <circle cx="799.0" cy="118" r="12" fill="#0B0B0C"/>
+  <text x="799.0" y="123" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" font-weight="800" fill="#FFD619">5</text>
+  <text x="852.0" y="152.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="19" fill="#0B0B0C" font-weight="700">Implement</text>
+  <text x="852.0" y="172.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#6A6862">from the list only</text>
+  <text x="852.0" y="191.0" text-anchor="middle" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#6A6862" direction="ltr">code + tests</text>
+  <path d="M219.0 210 V218 H927.0 V210" fill="none" stroke="#8A8781" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="573.0" y="240.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#6A6862">repeated for every feature</text>
+  <path d="M759.0 158.0 V266" fill="none" stroke="#0B0B0C" stroke-width="2" stroke-dasharray="5 5"/>
+  <rect x="594.0" y="266.0" width="330" height="40" rx="20" fill="#0B0B0C" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="759.0" y="292.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#FFD619" font-weight="700">gate: read the spec and tasks before building</text>
+  <rect x="33.0" y="340.0" width="432" height="262" rx="18" fill="#FFFFFF" stroke="#D9D4C7" stroke-width="1.5" filter="url(#sfens)"/>
+  <text x="57.0" y="378.0" text-anchor="start" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#0B0B0C" font-weight="700">Is the idea worth building?</text>
+  <text x="441.0" y="377.0" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#9A978F" direction="ltr">/speckit-assess-*</text>
+  <rect x="57.0" y="406.0" width="64.0" height="46" rx="23" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="89.0" y="435.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#0B0B0C" font-weight="600">Intake</text>
+  <path d="M125.5 424.0 L133.0 429.0 L125.5 434.0 Z" fill="#0B0B0C"/>
+  <rect x="137.0" y="406.0" width="64.0" height="46" rx="23" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="169.0" y="435.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#0B0B0C" font-weight="600">Research</text>
+  <path d="M205.5 424.0 L213.0 429.0 L205.5 434.0 Z" fill="#0B0B0C"/>
+  <rect x="217.0" y="406.0" width="64.0" height="46" rx="23" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="249.0" y="435.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#0B0B0C" font-weight="600">Define</text>
+  <path d="M285.5 424.0 L293.0 429.0 L285.5 434.0 Z" fill="#0B0B0C"/>
+  <rect x="297.0" y="406.0" width="64.0" height="46" rx="23" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="329.0" y="435.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#0B0B0C" font-weight="600">Shape</text>
+  <path d="M365.5 424.0 L373.0 429.0 L365.5 434.0 Z" fill="#0B0B0C"/>
+  <rect x="377.0" y="406.0" width="64.0" height="46" rx="23" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="409.0" y="435.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#0B0B0C" font-weight="600">Decide</text>
+  <path d="M249.0 456 V484" fill="none" stroke="#8A8781" stroke-width="1.8" stroke-linecap="round" marker-end="url(#sfenav)"/>
+  <rect x="70.0" y="490.0" width="110" height="40" rx="20" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="125.0" y="516.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#0B0B0C" font-weight="700">go</text>
+  <rect x="194.0" y="490.0" width="110" height="40" rx="20" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="249.0" y="516.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#0B0B0C" font-weight="700">clarify</text>
+  <rect x="318.0" y="490.0" width="110" height="40" rx="20" fill="#0B0B0C" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="373.0" y="516.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#FFD619" font-weight="700">stop</text>
+  <text x="249.0" y="568.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#6A6862">stopping with a written reason is a result too</text>
+  <rect x="495.0" y="340.0" width="432" height="262" rx="18" fill="#FFFFFF" stroke="#D9D4C7" stroke-width="1.5" filter="url(#sfens)"/>
+  <text x="519.0" y="378.0" text-anchor="start" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="18" fill="#0B0B0C" font-weight="700">Fixing a bug</text>
+  <text x="903.0" y="377.0" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#9A978F" direction="ltr">/speckit-bug-*</text>
+  <rect x="519.0" y="406.0" width="117.3" height="46" rx="23" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="577.7" y="435.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#0B0B0C" font-weight="600">Assess cause</text>
+  <path d="M640.8 424.0 L648.3 429.0 L640.8 434.0 Z" fill="#0B0B0C"/>
+  <rect x="652.3" y="406.0" width="117.3" height="46" rx="23" fill="#F7F4EC" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="711.0" y="435.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#0B0B0C" font-weight="600">Fix</text>
+  <path d="M774.2 424.0 L781.7 429.0 L774.2 434.0 Z" fill="#0B0B0C"/>
+  <rect x="785.7" y="406.0" width="117.3" height="46" rx="23" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="844.3" y="435.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#0B0B0C" font-weight="600">Test</text>
+  <path d="M711.0 456 V484" fill="none" stroke="#8A8781" stroke-width="1.8" stroke-linecap="round" marker-end="url(#sfenav)"/>
+  <rect x="532.0" y="490.0" width="110" height="40" rx="20" fill="#FFD619" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="587.0" y="516.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#0B0B0C" font-weight="700">verified</text>
+  <rect x="656.0" y="490.0" width="110" height="40" rx="20" fill="#FFFFFF" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="711.0" y="516.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#0B0B0C" font-weight="700">partial</text>
+  <rect x="780.0" y="490.0" width="110" height="40" rx="20" fill="#0B0B0C" stroke="#0B0B0C" stroke-width="1.8"/>
+  <text x="835.0" y="516.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#FFD619" font-weight="700">failed</text>
+  <text x="711.0" y="568.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#6A6862">only “verified” means the fix worked</text>
+  <path d="M294.0 336 V226" fill="none" stroke="#0B0B0C" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 6" marker-end="url(#sfenac)"/>
+  <text x="306.0" y="318.0" text-anchor="start" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#0B0B0C" font-weight="600">“go” hands over to Specify</text>
+  <text x="480.0" y="638.0" text-anchor="middle" font-family="'Montserrat','Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#6A6862" font-weight="600">Fixing a sentence takes seconds; fixing a wrong feature takes an afternoon</text>
+</svg>

@@ -19,7 +19,7 @@
 <p align="center">
   <img alt="Python 3.10+" src="assets/badges/python-ar.svg" height="34">
   <img alt="الاختبارات: دون اتصال وبلا مفتاح" src="assets/badges/tests-ar.svg" height="34">
-  <img alt="الدروس: 4 من 12" src="assets/badges/lessons-ar.svg" height="34">
+  <img alt="الدروس: 5 من 13" src="assets/badges/lessons-ar.svg" height="34">
   <img alt="الشيفرة: MIT" src="assets/badges/code-ar.svg" height="34">
   <img alt="المحتوى: CC BY 4.0" src="assets/badges/content-ar.svg" height="34">
 </p>
@@ -73,6 +73,7 @@ plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب م�
 - **أدوات آمنة من الصفر:** حاسبة بلا `eval`، وتاريخ ووقت، وقارئ ملفات في صندوق رمل، وحذف لا يتم إلا بموافقتك.
 - **حلقة استخدام الأدوات مكتوبة يدوياً** سطراً سطراً.
 - **«مساعد بحث»** يقرأ مستندات عربية محلية، ويخطط، ويتذكر المحادثة، ويتوقف بأمان، ويحسب كلفته، ويُتحقَّق من كل استشهاد في إجابته.
+- **ميزة كاملة بالتطوير الموجّه بالمواصفات:** حاسبة فاتورة بالضريبة تمرّ بالدستور والمواصفات والخطة والمهام قبل أن تُكتب الشيفرة، وأداة تفحص المواصفات والمهام قبل البناء.
 
 ## خريطة الدورة
 
@@ -82,14 +83,15 @@ plan: ابحث عن مراحل الثمرة / اقرأ الأسطر / أجب م�
 | <img src="assets/icons/agent.svg" width="32" height="32" alt=""> | 01 | [ما هو الوكيل؟](docs/01-what-is-an-agent/README.md) | الفرق بين النموذج وسير العمل والوكيل، وحلقة الإدراك والتفكير والفعل، ومتى لا تبني وكيلاً، وأول طلب | **متاح** |
 | <img src="assets/icons/tools.svg" width="32" height="32" alt=""> | 02 | [الأدوات من الصفر](docs/02-tools/README.md) | تعريف الأدوات بمخطط JSON، والحلقة اليدوية، ومعالجة الأخطاء، وحراسة الأدوات الخطرة | **متاح** |
 | <img src="assets/icons/research.svg" width="32" height="32" alt=""> | 03 | [أول وكيل حقيقي: «مساعد بحث»](docs/03-first-agent/README.md) | التخطيط، والذاكرة، وشروط التوقف، وحساب الكلفة، وفحص الاستشهادات | **متاح** |
-| <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 04 | بروتوكول MCP: ابنِ خادم أدوات | ربط الوكيل بأدوات خارجية بمعيار مفتوح | قريباً |
-| <img src="assets/icons/skills-soon.svg" width="32" height="32" alt=""> | 05 | المهارات | حزم تعليمات وموارد يحمّلها الوكيل عند الحاجة | قريباً |
-| <img src="assets/icons/memory-soon.svg" width="32" height="32" alt=""> | 06 | الذاكرة الطويلة والاسترجاع (RAG) | التضمينات، والبحث الدلالي، وإدارة السياق الطويل | قريباً |
-| <img src="assets/icons/eval-soon.svg" width="32" height="32" alt=""> | 07 | تقييم الوكلاء | كيف تقيس جودة الوكيل بأرقام لا بانطباعات | قريباً |
-| <img src="assets/icons/security-soon.svg" width="32" height="32" alt=""> | 08 | أمان الوكلاء | الصلاحيات، وحقن التعليمات، والموافقات، والسجلات | قريباً |
-| <img src="assets/icons/multi-soon.svg" width="32" height="32" alt=""> | 09 | أنظمة الوكلاء المتعددين | متى تقسم العمل بين عدة وكلاء، وكيف | قريباً |
-| <img src="assets/icons/deploy-soon.svg" width="32" height="32" alt=""> | 10 | النشر والمراقبة | تشغيل الوكيل في بيئة حقيقية، ومراقبة الكلفة والأخطاء | قريباً |
-| <img src="assets/icons/capstone-soon.svg" width="32" height="32" alt=""> | 11 | مشروع التخرّج | وكيل متكامل من الفكرة إلى التشغيل | قريباً |
+| <img src="assets/icons/spec.svg" width="32" height="32" alt=""> | 04 | [التطوير الموجّه بالمواصفات](docs/04-spec-driven/README.md) | الدستور والمواصفات والخطة والمهام والتنفيذ مع وكيل البرمجة، ومسار إصلاح الأخطاء، وتقييم الفكرة قبل بنائها | **متاح** |
+| <img src="assets/icons/mcp-soon.svg" width="32" height="32" alt=""> | 05 | بروتوكول MCP: ابنِ خادم أدوات | ربط الوكيل بأدوات خارجية بمعيار مفتوح | قريباً |
+| <img src="assets/icons/skills-soon.svg" width="32" height="32" alt=""> | 06 | المهارات | حزم تعليمات وموارد يحمّلها الوكيل عند الحاجة | قريباً |
+| <img src="assets/icons/memory-soon.svg" width="32" height="32" alt=""> | 07 | الذاكرة الطويلة والاسترجاع (RAG) | التضمينات، والبحث الدلالي، وإدارة السياق الطويل | قريباً |
+| <img src="assets/icons/eval-soon.svg" width="32" height="32" alt=""> | 08 | تقييم الوكلاء | كيف تقيس جودة الوكيل بأرقام لا بانطباعات | قريباً |
+| <img src="assets/icons/security-soon.svg" width="32" height="32" alt=""> | 09 | أمان الوكلاء | الصلاحيات، وحقن التعليمات، والموافقات، والسجلات | قريباً |
+| <img src="assets/icons/multi-soon.svg" width="32" height="32" alt=""> | 10 | أنظمة الوكلاء المتعددين | متى تقسم العمل بين عدة وكلاء، وكيف | قريباً |
+| <img src="assets/icons/deploy-soon.svg" width="32" height="32" alt=""> | 11 | النشر والمراقبة | تشغيل الوكيل في بيئة حقيقية، ومراقبة الكلفة والأخطاء | قريباً |
+| <img src="assets/icons/capstone-soon.svg" width="32" height="32" alt=""> | 12 | مشروع التخرّج | وكيل متكامل من الفكرة إلى التشغيل | قريباً |
 
 كل درس فيه: شرح بالعربية الفصحى، ورسوم توضيحية، وشيفرة قابلة للتشغيل، و«أخطاء شائعة»، و«اختبر نفسك»، وتمارين بحلول منفصلة، ومصطلحات تُجمع في [المسرد](docs/glossary.md). وكل درس له نسخة إنجليزية كاملة.
 
@@ -108,6 +110,7 @@ python lessons/01/agent_loop_toy.py       # the agent loop, no API key
 export ANTHROPIC_API_KEY="..."            # never write it in code
 python lessons/02/tool_loop.py "كم يساوي ١٥٪ من ٢٤٨٠؟"
 python lessons/03/research_agent.py
+python lessons/04/spec_check.py lessons/04/example   # read the spec before building
 ```
 
 </div>

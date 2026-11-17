@@ -52,6 +52,19 @@ Terms are listed in the order they appear in the lessons. The [Arabic glossary](
 | Usage | The input, output and cache token counts in each response | 03 |
 | Prompt Caching | Reusing a repeated request prefix at a lower price | 03 |
 | Compaction | Automatically summarizing the start of a long conversation so it stays within the context | 03 |
+| Spec-Driven Development | A way of working where decisions are written first in plain language and reviewed by a person, and the code is then built from them | 04 |
+| Constitution | A short file of project rules that must not be broken, including what must not be touched, read before every feature | 04 |
+| Specification | A description of what we're building, for whom and why, with numbered requirements and acceptance scenarios, and no technology | 04 |
+| Requirement | One numbered sentence that says one testable thing | 04 |
+| Acceptance Scenario | An example with real numbers: given this, when that happens, the result is this | 04 |
+| Out of Scope | What we explicitly decided not to build in this feature | 04 |
+| Technical Plan | How the feature will be built: stack, files and decisions, each decision naming the requirement it serves | 04 |
+| Task List | Small, ordered steps, each pointing at a requirement and checked off when done | 04 |
+| Traceability | Tying every line of code to a task and a requirement, and every requirement to a test | 04 |
+| Convergence | Comparing the code against the spec after implementing, and adding tasks for what is missing until nothing is | 04 |
+| Review Gate | A point after which implementation doesn't start until a person has read and approved the spec and the tasks | 04 |
+| Verification Verdict | The result of the bug-fixing path: verified, partial or failed | 04 |
+| Idea Assessment | Questions asked before building that end in a decision: go, clarify or stop | 04 |
 
 ---
 

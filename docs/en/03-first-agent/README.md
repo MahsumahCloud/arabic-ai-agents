@@ -218,4 +218,4 @@ Full definitions in the [glossary](../glossary.md).
 
 ---
 
-<p align="center"><b>Previous:</b> <a href="../02-tools/README.md">Lesson 02: Tools from scratch</a> · <a href="../../../README.en.md#course-map">Course map</a> · <b>Next:</b> Lesson 04: Build an MCP server (coming soon)</p>
+<p align="center"><b>Previous:</b> <a href="../02-tools/README.md">Lesson 02: Tools from scratch</a> · <a href="../../../README.en.md#course-map">Course map</a> · <b>Next:</b> <a href="../04-spec-driven/README.md">Lesson 04: Spec-driven development</a></p>
